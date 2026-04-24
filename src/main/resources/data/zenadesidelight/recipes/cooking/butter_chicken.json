@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 60,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "zenadesidelight:tandoori_chicken"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:butter_chicken"
+  },
+  "recipe_book_tab": "meals"
+}
