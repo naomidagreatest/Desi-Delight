@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.zenanaomi.desidelight.DesiDelight;
+import net.zenanaomi.desidelight.block.ModBlocks;
 
 public class ModCreativeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -18,6 +19,7 @@ public class ModCreativeTab {
                     .icon(() -> new ItemStack(ModItems.BUTTER_CHICKEN.get()))
                     .title(Component.translatable("creativetab.desi_delight_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.TANDOOR.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
                     })
