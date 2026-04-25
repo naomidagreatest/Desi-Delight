@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_terracotta"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:tandoor"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+
+  "pattern": [
+    "# #",
+    "I I",
+    "#F#"
+  ],
+
+  "key": {
+    "#": {
+      "tag": "minecraft:terracotta"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:campfire"
+    }
+  },
+
+  "result": {
+    "item": "zenadesidelight:tandoor",
+    "count": 1
+  }
+}
