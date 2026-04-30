@@ -1,0 +1,14 @@
+{
+  "type": "zenadesidelight:tandoor_cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    {
+      "item": "farmersdelight:milk_bottle"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:tandoori_chicken"
+  }
+}

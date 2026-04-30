@@ -20,6 +20,7 @@ public class ModCreativeTab {
                     .title(Component.translatable("creativetab.desi_delight_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.TANDOOR.get());
+                        pOutput.accept(ModItems.NAAN.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
                     })
