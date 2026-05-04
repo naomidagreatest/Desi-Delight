@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cumin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:cumin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_cumin"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:smoking/cumin_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

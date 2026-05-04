@@ -16,12 +16,38 @@ public class ModCreativeTab {
 
     public static final RegistryObject<CreativeModeTab> DESI_DELIGHT_TAB =
             CREATIVE_MODE_TABS.register("desi_delight_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.BUTTER_CHICKEN.get()))
+                    .icon(() -> new ItemStack(ModBlocks.TANDOOR.get()))
                     .title(Component.translatable("creativetab.desi_delight_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.CINNAMON_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CINNAMON_LOG.get());
+                        pOutput.accept(ModBlocks.CINNAMON_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CINNAMON_WOOD.get());
+                        pOutput.accept(ModBlocks.CINNAMON_PLANKS.get());
+                        pOutput.accept(ModBlocks.CINNAMON_LEAVES.get());
+
                         pOutput.accept(ModBlocks.TANDOOR.get());
+
+                        pOutput.accept(ModItems.FENNEL.get());
+                        pOutput.accept(ModItems.CLOVES.get());
+                        pOutput.accept(ModItems.CUMIN.get());
+                        pOutput.accept(ModItems.STAR_ANISE.get());
+                        pOutput.accept(ModItems.DRIED_FENNEL.get());
+                        pOutput.accept(ModItems.DRIED_CLOVES.get());
+                        pOutput.accept(ModItems.DRIED_CUMIN.get());
+                        pOutput.accept(ModItems.DRIED_STAR_ANISE.get());
+
+                        pOutput.accept(ModItems.PEPPERCORN.get());
+                        pOutput.accept(ModItems.BAY_LEAVES.get());
+                        pOutput.accept(ModItems.CORIANDER.get());
+                        pOutput.accept(ModItems.RED_CHILI.get());
+                        pOutput.accept(ModItems.GREEN_CHILI.get());
+
+                        pOutput.accept(ModItems.CINNAMON.get());
+
                         pOutput.accept(ModItems.NAAN.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
+
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
                     })
                     .build());

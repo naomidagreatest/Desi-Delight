@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cloves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:cloves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_cloves"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:smoking/cloves_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

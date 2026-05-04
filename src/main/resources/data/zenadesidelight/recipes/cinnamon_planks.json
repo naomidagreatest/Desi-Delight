@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+
+  "ingredients": [
+    {
+      "tag": "zenadesidelight:cinnamon_logs"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:cinnamon_planks",
+    "count": 4
+  }
+}

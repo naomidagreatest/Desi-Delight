@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.block.client.render.TandoorRenderer;
 import net.zenanaomi.desidelight.block.entity.ModBlockEntities;
+import net.zenanaomi.desidelight.effect.ModEffects;
 import net.zenanaomi.desidelight.item.ModCreativeTab;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.recipe.ModRecipes;
@@ -34,6 +35,7 @@ public class DesiDelight
         ModBlockEntities.register(modEventBus);
         ModItems.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModEffects.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

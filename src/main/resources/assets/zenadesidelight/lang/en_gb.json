@@ -1,7 +1,34 @@
 {
   "creativetab.desi_delight_tab": "Desi Delight",
+
+  "block.zenadesidelight.cinnamon_log": "Cinnamon Log",
+  "block.zenadesidelight.stripped_cinnamon_log": "Stripped Cinnamon Log",
+  "block.zenadesidelight.cinnamon_wood": "Cinnamon Wood",
+  "block.zenadesidelight.stripped_cinnamon_wood": "Stripped Cinnamon Wood",
+  "block.zenadesidelight.cinnamon_planks": "Cinnamon Planks",
+  "block.zenadesidelight.cinnamon_leaves": "Cinnamon Leaves",
+
   "block.zenadesidelight.tandoor": "Tandoor",
+
+  "item.zenadesidelight.fennel": "Fennel",
+  "item.zenadesidelight.cloves": "Cloves",
+  "item.zenadesidelight.cumin": "Cumin",
+  "item.zenadesidelight.star_anise": "Star Anise",
+  "item.zenadesidelight.dried_fennel": "Dried Fennel",
+  "item.zenadesidelight.dried_cloves": "Dried Cloves",
+  "item.zenadesidelight.dried_cumin": "Dried Cumin",
+  "item.zenadesidelight.dried_star_anise": "Dried Star Anise",
+
+  "item.zenadesidelight.peppercorn": "Peppercorn",
+  "item.zenadesidelight.bay_leaves": "Bay Leaves",
+  "item.zenadesidelight.coriander": "Coriander",
+  "item.zenadesidelight.red_chili": "Red Chilli Pepper",
+  "item.zenadesidelight.green_chili": "Green Chilli Pepper",
+
+  "item.zenadesidelight.cinnamon": "Cinnamon",
+
   "item.zenadesidelight.naan": "Naan",
   "item.zenadesidelight.tandoori_chicken": "Tandoori Chicken",
+
   "item.zenadesidelight.butter_chicken": "Butter Chicken"
 }
