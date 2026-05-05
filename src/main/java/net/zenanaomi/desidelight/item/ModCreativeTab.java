@@ -20,11 +20,30 @@ public class ModCreativeTab {
                     .title(Component.translatable("creativetab.desi_delight_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.CINNAMON_LOG.get());
-                        pOutput.accept(ModBlocks.STRIPPED_CINNAMON_LOG.get());
                         pOutput.accept(ModBlocks.CINNAMON_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CINNAMON_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_CINNAMON_WOOD.get());
+
                         pOutput.accept(ModBlocks.CINNAMON_PLANKS.get());
+                        pOutput.accept(ModBlocks.CINNAMON_STAIRS.get());
+                        pOutput.accept(ModBlocks.CINNAMON_SLAB.get());
+                        pOutput.accept(ModBlocks.CINNAMON_FENCE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_DOOR.get());
+                        pOutput.accept(ModBlocks.CINNAMON_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.CINNAMON_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_BUTTON.get());
+
                         pOutput.accept(ModBlocks.CINNAMON_LEAVES.get());
+                        //sapling
+
+                        //sign
+                        //hanging sign
+
+                        //boat
+                        //chest boat
+
+                        //cabinet
 
                         pOutput.accept(ModBlocks.TANDOOR.get());
 
@@ -42,8 +61,11 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.CORIANDER.get());
                         pOutput.accept(ModItems.RED_CHILI.get());
                         pOutput.accept(ModItems.GREEN_CHILI.get());
+                        //garlic
+                        //ginger
 
                         pOutput.accept(ModItems.CINNAMON.get());
+                        //cashew
 
                         pOutput.accept(ModItems.NAAN.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());

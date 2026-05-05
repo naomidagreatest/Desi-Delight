@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zenadesidelight:cinnamon_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_log"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cinnamon_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

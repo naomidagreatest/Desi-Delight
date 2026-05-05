@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cinnamon_planks"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:cinnamon_button"
+  }
+}

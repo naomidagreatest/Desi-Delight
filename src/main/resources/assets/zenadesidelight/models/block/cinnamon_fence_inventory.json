@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "zenadesidelight:block/cinnamon_planks"
+  }
+}

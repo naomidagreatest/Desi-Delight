@@ -2,10 +2,20 @@
   "creativetab.desi_delight_tab": "Desi Delight",
 
   "block.zenadesidelight.cinnamon_log": "Cinnamon Log",
-  "block.zenadesidelight.stripped_cinnamon_log": "Stripped Cinnamon Log",
   "block.zenadesidelight.cinnamon_wood": "Cinnamon Wood",
+  "block.zenadesidelight.stripped_cinnamon_log": "Stripped Cinnamon Log",
   "block.zenadesidelight.stripped_cinnamon_wood": "Stripped Cinnamon Wood",
+
   "block.zenadesidelight.cinnamon_planks": "Cinnamon Planks",
+  "block.zenadesidelight.cinnamon_stairs": "Cinnamon Stairs",
+  "block.zenadesidelight.cinnamon_slab": "Cinnamon Slab",
+  "block.zenadesidelight.cinnamon_fence": "Cinnamon Fence",
+  "block.zenadesidelight.cinnamon_fence_gate": "Cinnamon Fence Gate",
+  "block.zenadesidelight.cinnamon_door": "Cinnamon Door",
+  "block.zenadesidelight.cinnamon_trapdoor": "Cinnamon Trapdoor",
+  "block.zenadesidelight.cinnamon_pressure_plate": "Cinnamon Pressure Plate",
+  "block.zenadesidelight.cinnamon_button": "Cinnamon Button",
+
   "block.zenadesidelight.cinnamon_leaves": "Cinnamon Leaves",
 
   "block.zenadesidelight.tandoor": "Tandoor",
