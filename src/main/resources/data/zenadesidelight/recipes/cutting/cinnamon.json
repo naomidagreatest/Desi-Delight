@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "zenadesidelight:cinnamon_logs"
+    }
+  ],
+  "result": [
+    {
+      "item": "zenadesidelight:cinnamon",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

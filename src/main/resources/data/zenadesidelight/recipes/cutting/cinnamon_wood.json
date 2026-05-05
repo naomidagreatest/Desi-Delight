@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cinnamon_wood"
+    }
+  ],
+  "result": [
+    {
+      "item": "zenadesidelight:stripped_cinnamon_wood",
+      "count": 1
+    },
+    {
+      "item": "zenadesidelight:cinnamon",
+      "count": 4
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/axes"
+  },
+  "sound": "minecraft:item.axe.strip"
+}
