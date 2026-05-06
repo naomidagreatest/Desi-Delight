@@ -43,7 +43,7 @@ public class ModCreativeTab {
                         //boat
                         //chest boat
 
-                        //cabinet
+                        pOutput.accept(ModBlocks.CINNAMON_CABINET.get());
 
                         pOutput.accept(ModBlocks.TANDOOR.get());
 

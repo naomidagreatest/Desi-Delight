@@ -18,6 +18,7 @@ import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.custom.ModFlammableRotatedPillarBlock;
 import net.zenanaomi.desidelight.block.custom.Tandoor;
 import net.zenanaomi.desidelight.item.ModItems;
+import vectorwing.farmersdelight.common.block.CabinetBlock;
 
 import java.util.function.Supplier;
 
@@ -71,6 +72,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> CINNAMON_TRAPDOOR = registerBlock("cinnamon_trapdoor", () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
     public static final RegistryObject<Block> CINNAMON_PRESSURE_PLATE = registerBlock("cinnamon_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE), BlockSetType.OAK));
     public static final RegistryObject<Block> CINNAMON_BUTTON = registerBlock("cinnamon_button", () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON), BlockSetType.OAK, 10, true));
+
+    public static final RegistryObject<Block> CINNAMON_CABINET = registerBlock("cinnamon_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.OAK_CABINET.get())));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

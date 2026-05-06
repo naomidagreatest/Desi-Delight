@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zenadesidelight:cinnamon_trapdoor"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_trapdoor"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cinnamon_cabinet"
+    ]
+  },
+  "sends_telemetry_event": false
+}
