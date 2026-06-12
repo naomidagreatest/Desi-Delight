@@ -1,15 +1,24 @@
 package net.zenanaomi.desidelight.item;
 
+import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SignItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.zenanaomi.desidelight.DesiDelight;
+import net.zenanaomi.desidelight.block.ModBlocks;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, DesiDelight.MOD_ID);
+
+    //wood stuff
+    public static final RegistryObject<Item> CINNAMON_SIGN = ITEMS.register("cinnamon_sign", () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.CINNAMON_SIGN.get(), ModBlocks.CINNAMON_WALL_SIGN.get()));
+    public static final RegistryObject<Item> CINNAMON_HANGING_SIGN = ITEMS.register("cinnamon_hanging_sign", () -> new HangingSignItem(ModBlocks.CINNAMON_HANGING_SIGN.get(), ModBlocks.CINNAMON_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> CASHEW_SIGN = ITEMS.register("cashew_sign", () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.CASHEW_SIGN.get(), ModBlocks.CASHEW_WALL_SIGN.get()));
+    public static final RegistryObject<Item> CASHEW_HANGING_SIGN = ITEMS.register("cashew_hanging_sign", () -> new HangingSignItem(ModBlocks.CASHEW_HANGING_SIGN.get(), ModBlocks.CASHEW_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
 
     //crops
     public static final RegistryObject<Item> FENNEL = ITEMS.register("fennel", () -> new Item(new Item.Properties()));

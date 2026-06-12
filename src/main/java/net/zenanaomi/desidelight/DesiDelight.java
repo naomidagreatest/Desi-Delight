@@ -1,7 +1,10 @@
 package net.zenanaomi.desidelight;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
+import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -19,6 +22,7 @@ import net.zenanaomi.desidelight.effect.ModEffects;
 import net.zenanaomi.desidelight.item.ModCreativeTab;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.recipe.ModRecipes;
+import net.zenanaomi.desidelight.util.ModWoodTypes;
 import org.slf4j.Logger;
 
 @Mod(DesiDelight.MOD_ID)
@@ -69,7 +73,12 @@ public class DesiDelight
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            Sheets.addWoodType(ModWoodTypes.CINNAMON);
+            Sheets.addWoodType(ModWoodTypes.CASHEW);
+
             BlockEntityRenderers.register(ModBlockEntities.TANDOOR_BE.get(), TandoorRenderer::new);
+            BlockEntityRenderers.register(ModBlockEntities.DESI_DELIGHT_SIGN.get(), SignRenderer::new);
+            BlockEntityRenderers.register(ModBlockEntities.DESI_DELIGHT_HANGING_SIGN.get(), HangingSignRenderer::new);
         }
     }
 }

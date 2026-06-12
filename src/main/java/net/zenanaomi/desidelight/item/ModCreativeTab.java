@@ -37,8 +37,8 @@ public class ModCreativeTab {
                         pOutput.accept(ModBlocks.CINNAMON_LEAVES.get());
                         //sapling
 
-                        //sign
-                        //hanging sign
+                        pOutput.accept(ModBlocks.CINNAMON_SIGN.get());
+                        pOutput.accept(ModBlocks.CINNAMON_HANGING_SIGN.get());
 
                         //boat
                         //chest boat
@@ -64,8 +64,8 @@ public class ModCreativeTab {
                         pOutput.accept(ModBlocks.CASHEW_LEAVES_GROWN.get());
                         //sapling
 
-                        //sign
-                        //hanging sign
+                        pOutput.accept(ModBlocks.CASHEW_SIGN.get());
+                        pOutput.accept(ModBlocks.CASHEW_HANGING_SIGN.get());
 
                         //boat
                         //chest boat
