@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cashew_planks"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:cashew_door",
+    "count": 3
+  }
+}

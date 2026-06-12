@@ -45,6 +45,33 @@ public class ModCreativeTab {
 
                         pOutput.accept(ModBlocks.CINNAMON_CABINET.get());
 
+                        pOutput.accept(ModBlocks.CASHEW_LOG.get());
+                        pOutput.accept(ModBlocks.CASHEW_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CASHEW_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CASHEW_WOOD.get());
+
+                        pOutput.accept(ModBlocks.CASHEW_PLANKS.get());
+                        pOutput.accept(ModBlocks.CASHEW_STAIRS.get());
+                        pOutput.accept(ModBlocks.CASHEW_SLAB.get());
+                        pOutput.accept(ModBlocks.CASHEW_FENCE.get());
+                        pOutput.accept(ModBlocks.CASHEW_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CASHEW_DOOR.get());
+                        pOutput.accept(ModBlocks.CASHEW_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.CASHEW_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.CASHEW_BUTTON.get());
+
+                        pOutput.accept(ModBlocks.CASHEW_LEAVES.get());
+                        pOutput.accept(ModBlocks.CASHEW_LEAVES_GROWN.get());
+                        //sapling
+
+                        //sign
+                        //hanging sign
+
+                        //boat
+                        //chest boat
+
+                        pOutput.accept(ModBlocks.CASHEW_CABINET.get());
+
                         pOutput.accept(ModBlocks.TANDOOR.get());
 
                         pOutput.accept(ModItems.FENNEL.get());

@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cashew_wood"
+    }
+  ],
+  "result": [
+    {
+      "item": "zenadesidelight:stripped_cashew_wood",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/axes"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

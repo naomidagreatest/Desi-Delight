@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fd_cabinet",
+  "key": {
+    "D": {
+      "item": "zenadesidelight:cashew_trapdoor"
+    },
+    "_": {
+      "item": "zenadesidelight:cashew_slab"
+    }
+  },
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "result": {
+    "item": "zenadesidelight:cashew_cabinet"
+  }
+}

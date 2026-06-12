@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+
+  "ingredients": [
+    {
+      "tag": "zenadesidelight:cashew_logs"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:cashew_planks",
+    "count": 4
+  }
+}

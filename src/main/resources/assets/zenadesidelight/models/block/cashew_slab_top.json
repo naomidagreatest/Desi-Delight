@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "top": "zenadesidelight:block/cashew_planks",
+    "bottom": "zenadesidelight:block/cashew_planks",
+    "side": "zenadesidelight:block/cashew_planks"
+  }
+}

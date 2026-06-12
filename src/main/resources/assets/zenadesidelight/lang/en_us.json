@@ -20,6 +20,26 @@
 
   "block.zenadesidelight.cinnamon_cabinet": "Cinnamon Cabinet",
 
+  "block.zenadesidelight.cashew_log": "Cashew Log",
+  "block.zenadesidelight.cashew_wood": "Cashew Wood",
+  "block.zenadesidelight.stripped_cashew_log": "Stripped Cashew Log",
+  "block.zenadesidelight.stripped_cashew_wood": "Stripped Cashew Wood",
+
+  "block.zenadesidelight.cashew_planks": "Cashew Planks",
+  "block.zenadesidelight.cashew_stairs": "Cashew Stairs",
+  "block.zenadesidelight.cashew_slab": "Cashew Slab",
+  "block.zenadesidelight.cashew_fence": "Cashew Fence",
+  "block.zenadesidelight.cashew_fence_gate": "Cashew Fence Gate",
+  "block.zenadesidelight.cashew_door": "Cashew Door",
+  "block.zenadesidelight.cashew_trapdoor": "Cashew Trapdoor",
+  "block.zenadesidelight.cashew_pressure_plate": "Cashew Pressure Plate",
+  "block.zenadesidelight.cashew_button": "Cashew Button",
+
+  "block.zenadesidelight.cashew_leaves": "Cashew Leaves",
+  "block.zenadesidelight.cashew_leaves_grown": "Full Cashew Leaves",
+
+  "block.zenadesidelight.cashew_cabinet": "Cashew Cabinet",
+
   "block.zenadesidelight.tandoor": "Tandoor",
 
   "item.zenadesidelight.fennel": "Fennel",

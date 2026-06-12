@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cashew_planks"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:cashew_button"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#zenadesidelight:cinnamon_logs"
+    "#zenadesidelight:cinnamon_logs",
+    "#zenadesidelight:cashew_logs"
   ]
 }
