@@ -21,6 +21,9 @@
   "block.zenadesidelight.cinnamon_sign": "Cinnamon Sign",
   "block.zenadesidelight.cinnamon_hanging_sign": "Cinnamon Hanging Sign",
 
+  "item.zenadesidelight.cinnamon_boat": "Cinnamon Boat",
+  "item.zenadesidelight.cinnamon_chest_boat": "Cinnamon Chest Boat",
+
   "block.zenadesidelight.cinnamon_cabinet": "Cinnamon Cabinet",
 
   "block.zenadesidelight.cashew_log": "Cashew Log",
@@ -43,6 +46,9 @@
 
   "block.zenadesidelight.cashew_sign": "Cashew Sign",
   "block.zenadesidelight.cashew_hanging_sign": "Cashew Hanging Sign",
+
+  "item.zenadesidelight.cashew_boat": "Cashew Boat",
+  "item.zenadesidelight.cashew_chest_boat": "Cashew Chest Boat",
 
   "block.zenadesidelight.cashew_cabinet": "Cashew Cabinet",
 
@@ -68,5 +74,7 @@
   "item.zenadesidelight.naan": "Naan",
   "item.zenadesidelight.tandoori_chicken": "Tandoori Chicken",
 
-  "item.zenadesidelight.butter_chicken": "Butter Chicken"
+  "item.zenadesidelight.butter_chicken": "Butter Chicken",
+
+  "entity.zenadesidelight.mod_chest_boat": "Boat with Chest"
 }

@@ -37,11 +37,11 @@ public class ModCreativeTab {
                         pOutput.accept(ModBlocks.CINNAMON_LEAVES.get());
                         //sapling
 
-                        pOutput.accept(ModBlocks.CINNAMON_SIGN.get());
-                        pOutput.accept(ModBlocks.CINNAMON_HANGING_SIGN.get());
+                        pOutput.accept(ModItems.CINNAMON_SIGN.get());
+                        pOutput.accept(ModItems.CINNAMON_HANGING_SIGN.get());
 
-                        //boat
-                        //chest boat
+                        pOutput.accept(ModItems.CINNAMON_BOAT.get());
+                        pOutput.accept(ModItems.CINNAMON_CHEST_BOAT.get());
 
                         pOutput.accept(ModBlocks.CINNAMON_CABINET.get());
 
@@ -64,11 +64,11 @@ public class ModCreativeTab {
                         pOutput.accept(ModBlocks.CASHEW_LEAVES_GROWN.get());
                         //sapling
 
-                        pOutput.accept(ModBlocks.CASHEW_SIGN.get());
-                        pOutput.accept(ModBlocks.CASHEW_HANGING_SIGN.get());
+                        pOutput.accept(ModItems.CASHEW_SIGN.get());
+                        pOutput.accept(ModItems.CASHEW_HANGING_SIGN.get());
 
-                        //boat
-                        //chest boat
+                        pOutput.accept(ModItems.CASHEW_BOAT.get());
+                        pOutput.accept(ModItems.CASHEW_CHEST_BOAT.get());
 
                         pOutput.accept(ModBlocks.CASHEW_CABINET.get());
 
