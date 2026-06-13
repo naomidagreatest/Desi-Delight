@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hanging_sign",
+  "pattern": [
+    "/ /",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cinnamon_planks"
+    },
+    "/": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:cinnamon_hanging_sign",
+    "count": 6
+  }
+}
