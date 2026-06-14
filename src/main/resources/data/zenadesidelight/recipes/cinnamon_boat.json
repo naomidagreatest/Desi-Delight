@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cinnamon_planks"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:cinnamon_boat",
+    "count": 1
+  }
+}

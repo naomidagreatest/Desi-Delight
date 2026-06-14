@@ -92,7 +92,7 @@ public class ModCreativeTab {
                         //ginger
 
                         pOutput.accept(ModItems.CINNAMON.get());
-                        //cashew
+                        pOutput.accept(ModItems.CASHEW.get());
 
                         pOutput.accept(ModItems.NAAN.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());

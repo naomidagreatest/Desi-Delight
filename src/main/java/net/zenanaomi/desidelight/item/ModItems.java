@@ -47,6 +47,7 @@ public class ModItems {
 
     //tree ingredients
     public static final RegistryObject<Item> CINNAMON = ITEMS.register("cinnamon", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties().food(ModFoods.CASHEW)));
 
     //finger food
     public static final RegistryObject<Item> NAAN = ITEMS.register("naan", () -> new Item(new Item.Properties().food(ModFoods.NAAN)));

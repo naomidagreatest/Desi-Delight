@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "zenadesidelight:cashew_leaves"
+              "name": "zenadesidelight:cashew_leaves_grown"
             },
             {
               "type": "minecraft:item",
@@ -183,11 +183,11 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "name": "minecraft:apple"
+          "name": "zenadesidelight:cashew"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "zenadesidelight:blocks/cashew_leaves"
+  "random_sequence": "zenadesidelight:blocks/cashew_leaves_grown"
 }

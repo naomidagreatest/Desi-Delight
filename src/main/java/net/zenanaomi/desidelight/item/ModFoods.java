@@ -5,6 +5,11 @@ import net.minecraft.world.food.FoodProperties;
 import net.zenanaomi.desidelight.effect.ModEffects;
 
 public class ModFoods {
+    public static final FoodProperties CASHEW = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(1.0f)
+            .build();
+
     public static final FoodProperties RED_CHILI = new FoodProperties.Builder()
             .nutrition(1)
             .saturationMod(0.5f)
