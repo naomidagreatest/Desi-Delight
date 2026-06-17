@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "zenadesidelight:item/cashew_sapling"
+  },
+  "render_type": "cutout"
+}

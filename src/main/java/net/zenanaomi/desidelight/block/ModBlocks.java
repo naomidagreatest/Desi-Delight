@@ -18,6 +18,8 @@ import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.custom.*;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
+import net.zenanaomi.desidelight.worldgen.tree.CashewTreeGrower;
+import net.zenanaomi.desidelight.worldgen.tree.CinnamonTreeGrower;
 import vectorwing.farmersdelight.common.block.CabinetBlock;
 
 import java.util.function.Supplier;
@@ -36,6 +38,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRIPPED_CINNAMON_WOOD = registerBlock("stripped_cinnamon_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
     public static final RegistryObject<Block> CINNAMON_LEAVES = registerBlock("cinnamon_leaves", () -> new ModLeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Block> CINNAMON_PLANKS = registerBlock("cinnamon_planks", () -> new ModPlanksBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
     public static final RegistryObject<Block> CINNAMON_STAIRS = registerBlock("cinnamon_stairs", () -> new StairBlock(() -> ModBlocks.CINNAMON_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
     public static final RegistryObject<Block> CINNAMON_SLAB = registerBlock("cinnamon_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> CINNAMON_FENCE = registerBlock("cinnamon_fence", () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE)));
@@ -44,10 +47,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> CINNAMON_TRAPDOOR = registerBlock("cinnamon_trapdoor", () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
     public static final RegistryObject<Block> CINNAMON_PRESSURE_PLATE = registerBlock("cinnamon_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE), BlockSetType.OAK));
     public static final RegistryObject<Block> CINNAMON_BUTTON = registerBlock("cinnamon_button", () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON), BlockSetType.OAK, 10, true));
+
     public static final RegistryObject<Block> CINNAMON_SIGN = BLOCKS.register("cinnamon_sign", () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.CINNAMON));
     public static final RegistryObject<Block> CINNAMON_WALL_SIGN = BLOCKS.register("cinnamon_wall_sign", () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.CINNAMON));
     public static final RegistryObject<Block> CINNAMON_HANGING_SIGN = BLOCKS.register("cinnamon_hanging_sign", () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.CINNAMON));
     public static final RegistryObject<Block> CINNAMON_WALL_HANGING_SIGN = BLOCKS.register("cinnamon_wall_hanging_sign", () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.CINNAMON));
+
+    public static final RegistryObject<Block> CINNAMON_SAPLING = registerBlock("cinnamon_sapling", () -> new SaplingBlock(new CinnamonTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> CINNAMON_CABINET = registerBlock("cinnamon_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.OAK_CABINET.get())));
 
@@ -59,6 +65,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> CASHEW_LEAVES = registerBlock("cashew_leaves", () -> new ModLeavesBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LEAVES)));
     public static final RegistryObject<Block> CASHEW_LEAVES_GROWN = registerBlock("cashew_leaves_grown", () -> new ModLeavesBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LEAVES)));
     public static final RegistryObject<Block> CASHEW_PLANKS = registerBlock("cashew_planks", () -> new ModPlanksBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+
     public static final RegistryObject<Block> CASHEW_STAIRS = registerBlock("cashew_stairs", () -> new StairBlock(() -> ModBlocks.CASHEW_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_STAIRS)));
     public static final RegistryObject<Block> CASHEW_SLAB = registerBlock("cashew_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
     public static final RegistryObject<Block> CASHEW_FENCE = registerBlock("cashew_fence", () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_FENCE)));
@@ -67,10 +74,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> CASHEW_TRAPDOOR = registerBlock("cashew_trapdoor", () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_TRAPDOOR), BlockSetType.BIRCH));
     public static final RegistryObject<Block> CASHEW_PRESSURE_PLATE = registerBlock("cashew_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BIRCH_PRESSURE_PLATE), BlockSetType.BIRCH));
     public static final RegistryObject<Block> CASHEW_BUTTON = registerBlock("cashew_button", () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_BUTTON), BlockSetType.BIRCH, 10, true));
+
     public static final RegistryObject<Block> CASHEW_SIGN = BLOCKS.register("cashew_sign", () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SIGN), ModWoodTypes.CASHEW));
     public static final RegistryObject<Block> CASHEW_WALL_SIGN = BLOCKS.register("cashew_wall_sign", () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_WALL_SIGN), ModWoodTypes.CASHEW));
     public static final RegistryObject<Block> CASHEW_HANGING_SIGN = BLOCKS.register("cashew_hanging_sign", () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_HANGING_SIGN), ModWoodTypes.CASHEW));
     public static final RegistryObject<Block> CASHEW_WALL_HANGING_SIGN = BLOCKS.register("cashew_wall_hanging_sign", () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_WALL_HANGING_SIGN), ModWoodTypes.CASHEW));
+
+    public static final RegistryObject<Block> CASHEW_SAPLING = registerBlock("cashew_sapling", () -> new SaplingBlock(new CashewTreeGrower(), BlockBehaviour.Properties.copy(Blocks.BIRCH_SAPLING)));
 
     public static final RegistryObject<Block> CASHEW_CABINET = registerBlock("cashew_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
 
