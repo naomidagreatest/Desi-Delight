@@ -29,13 +29,13 @@
     "foliage_placer": {
       "type": "minecraft:fancy_foliage_placer",
       "height": 3,
-      "offset": 1,
-      "radius": 2
+      "offset": 0,
+      "radius": 1
     },
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "limit": 1,
-      "lower_size": 0,
+      "limit": 4,
+      "lower_size": 1,
       "upper_size": 1
     },
     "force_dirt": false,
