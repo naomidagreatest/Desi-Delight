@@ -70,14 +70,26 @@
   "item.zenadesidelight.coriander": "Cilantro",
   "item.zenadesidelight.red_chili": "Red Chili Pepper",
   "item.zenadesidelight.green_chili": "Green Chili Pepper",
+  "item.zenadesidelight.garlic": "Garlic",
+  "item.zenadesidelight.ginger": "Ginger",
 
   "item.zenadesidelight.cinnamon": "Cinnamon",
-  "item.zenadesidelight.cashew": "Cashew",
+  "item.zenadesidelight.raw_cashew": "Raw Cashew",
+  "item.zenadesidelight.cashew": "Roasted Cashew",
+
+  "item.zenadesidelight.butter": "Butter",
+  "item.zenadesidelight.cashew_butter": "Cashew Butter",
+  "item.zenadesidelight.garam_masala": "Garam Masala",
+  "item.zenadesidelight.tandoori_masala": "Tandoori Masala",
 
   "item.zenadesidelight.naan": "Naan",
+  "item.zenadesidelight.aloo_paratha": "Aloo Paratha",
   "item.zenadesidelight.tandoori_chicken": "Tandoori Chicken",
 
   "item.zenadesidelight.butter_chicken": "Butter Chicken",
+
+  "item.zenadesidelight.dahi": "Dahi",
+  "item.zenadesidelight.mishti_doi": "Mishti Doi",
 
   "entity.zenadesidelight.mod_chest_boat": "Boat with Chest"
 }

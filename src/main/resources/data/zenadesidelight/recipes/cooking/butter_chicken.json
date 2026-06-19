@@ -8,6 +8,18 @@
   "ingredients": [
     {
       "item": "zenadesidelight:tandoori_chicken"
+    },
+    {
+      "item": "zenadesidelight:butter"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "zenadesidelight:cashew_butter"
     }
   ],
   "result": {

@@ -1,8 +1,11 @@
 {
   "values": [
     "farmersdelight:wheat_dough",
+    "zenadesidelight:butter",
+    "zenadesidelight:garlic",
 
     "farmersdelight:chicken_cuts",
-    "farmersdelight:milk_bottle"
+    "zenadesidelight:tandoori_masala",
+    "zenadesidelight:dahi"
   ]
 }

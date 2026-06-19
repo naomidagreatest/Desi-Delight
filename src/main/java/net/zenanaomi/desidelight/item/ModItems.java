@@ -2,6 +2,7 @@ package net.zenanaomi.desidelight.item;
 
 import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.SignItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,6 +12,7 @@ import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.entity.custom.ModBoatEntity;
 import net.zenanaomi.desidelight.item.custom.ModBoatItem;
+import net.zenanaomi.desidelight.item.custom.ModContainerFoodItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -44,17 +46,31 @@ public class ModItems {
     public static final RegistryObject<Item> CORIANDER = ITEMS.register("coriander", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RED_CHILI = ITEMS.register("red_chili", () -> new Item(new Item.Properties().food(ModFoods.RED_CHILI)));
     public static final RegistryObject<Item> GREEN_CHILI = ITEMS.register("green_chili", () -> new Item(new Item.Properties().food(ModFoods.GREEN_CHILI)));
+    public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic", () -> new Item(new Item.Properties().food(ModFoods.GARLIC)));
+    public static final RegistryObject<Item> GINGER = ITEMS.register("ginger", () -> new Item(new Item.Properties().food(ModFoods.GINGER)));
 
     //tree ingredients
     public static final RegistryObject<Item> CINNAMON = ITEMS.register("cinnamon", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_CASHEW = ITEMS.register("raw_cashew", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties().food(ModFoods.CASHEW)));
+
+    //other ingredients
+    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter", () -> new Item(new Item.Properties().food(ModFoods.BUTTER)));
+    public static final RegistryObject<Item> CASHEW_BUTTER = ITEMS.register("cashew_butter", () -> new Item(new Item.Properties().food(ModFoods.CASHEW_BUTTER)));
+    public static final RegistryObject<Item> GARAM_MASALA = ITEMS.register("garam_masala", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TANDOORI_MASALA = ITEMS.register("tandoori_masala", () -> new Item(new Item.Properties()));
 
     //finger food
     public static final RegistryObject<Item> NAAN = ITEMS.register("naan", () -> new Item(new Item.Properties().food(ModFoods.NAAN)));
+    public static final RegistryObject<Item> ALOO_PARATHA = ITEMS.register("aloo_paratha", () -> new Item(new Item.Properties().food(ModFoods.ALOO_PARATHA)));
     public static final RegistryObject<Item> TANDOORI_CHICKEN = ITEMS.register("tandoori_chicken", () -> new Item(new Item.Properties().food(ModFoods.TANDOORI_CHICKEN)));
 
     //meals
-    public static final RegistryObject<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new Item(new Item.Properties().food(ModFoods.BUTTER_CHICKEN)));
+    public static final RegistryObject<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BUTTER_CHICKEN).stacksTo(1)));
+
+    //sweets
+    public static final RegistryObject<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI)));
+    public static final RegistryObject<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.MISHTI_DOI)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }

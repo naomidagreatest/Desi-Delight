@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dough": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:wheat_dough"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_dough"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cooking/aloo_paratha"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dried_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "zenadesidelight:dried_ingredients"
+          }
+        ]
+      }
+    },
+    "has_bay_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "zenadesidelight:bay_leaves"
+          }
+        ]
+      }
+    },
+    "has_peppercorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "zenadesidelight:peppercorn"
+          }
+        ]
+      }
+    },
+    "has_cinnamon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "zenadesidelight:cinnamon"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_dried_ingredient", "has_bay_leaves", "has_peppercorn", "has_cinnamon"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:garam_masala"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -88,16 +88,26 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.CORIANDER.get());
                         pOutput.accept(ModItems.RED_CHILI.get());
                         pOutput.accept(ModItems.GREEN_CHILI.get());
-                        //garlic
-                        //ginger
+                        pOutput.accept(ModItems.GARLIC.get());
+                        pOutput.accept(ModItems.GINGER.get());
 
                         pOutput.accept(ModItems.CINNAMON.get());
+                        pOutput.accept(ModItems.RAW_CASHEW.get());
                         pOutput.accept(ModItems.CASHEW.get());
 
+                        pOutput.accept(ModItems.BUTTER.get());
+                        pOutput.accept(ModItems.CASHEW_BUTTER.get());
+                        pOutput.accept(ModItems.GARAM_MASALA.get());
+                        pOutput.accept(ModItems.TANDOORI_MASALA.get());
+
                         pOutput.accept(ModItems.NAAN.get());
+                        pOutput.accept(ModItems.ALOO_PARATHA.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
 
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
+
+                        pOutput.accept(ModItems.DAHI.get());
+                        pOutput.accept(ModItems.MISHTI_DOI.get());
                     })
                     .build());
 

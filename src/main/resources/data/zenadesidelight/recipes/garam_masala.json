@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [
+    {
+      "item": "zenadesidelight:dried_fennel"
+    },
+    {
+      "item": "zenadesidelight:dried_cloves"
+    },
+    {
+      "item": "zenadesidelight:dried_cumin"
+    },
+    {
+      "item": "zenadesidelight:dried_star_anise"
+    },
+    {
+      "item": "zenadesidelight:bay_leaves"
+    },
+    {
+      "item": "zenadesidelight:peppercorn"
+    },
+    {
+      "item": "zenadesidelight:cinnamon"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:garam_masala",
+    "count": 3
+  }
+}

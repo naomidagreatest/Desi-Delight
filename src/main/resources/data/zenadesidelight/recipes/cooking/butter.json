@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:butter"
+  },
+  "recipe_book_tab": "misc"
+}

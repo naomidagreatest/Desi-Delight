@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:flower_pot"
+  },
+  "cookingtime": 600,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "zenadesidelight:red_chili"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:mishti_doi"
+  },
+  "recipe_book_tab": "misc"
+}

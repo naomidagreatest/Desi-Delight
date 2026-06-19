@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "zenadesidelight:garlic"
+    },
+    {
+      "item": "zenadesidelight:ginger"
+    },
+    {
+      "item": "zenadesidelight:red_chili"
+    },
+    {
+      "item": "zenadesidelight:garam_masala"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:tandoori_masala",
+    "count": 2
+  }
+}

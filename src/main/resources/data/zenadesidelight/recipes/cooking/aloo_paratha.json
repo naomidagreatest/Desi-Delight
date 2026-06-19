@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 300,
+  "experience": 0.75,
+  "ingredients": [
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "zenadesidelight:garam_masala"
+    },
+    {
+      "tag": "zenadesidelight:chili_peppers"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:aloo_paratha"
+  },
+  "recipe_book_tab": "misc"
+}

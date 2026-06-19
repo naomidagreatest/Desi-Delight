@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cashew"
+    },
+    {
+      "item": "zenadesidelight:cashew"
+    },
+    {
+      "item": "zenadesidelight:cashew"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:cashew_butter",
+    "count": 3
+  }
+}

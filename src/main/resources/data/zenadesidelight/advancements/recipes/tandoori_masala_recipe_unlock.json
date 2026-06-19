@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_garam_masala": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "zenadesidelight:garam_masala"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_garam_masala"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:tandoori_masala"
+    ]
+  },
+  "sends_telemetry_event": false
+}
