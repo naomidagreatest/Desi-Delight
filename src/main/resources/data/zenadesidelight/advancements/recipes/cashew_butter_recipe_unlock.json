@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "zenadesidelight:cashew"
+            "items": ["zenadesidelight:cashew"]
           }
         ]
       }

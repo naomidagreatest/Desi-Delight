@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "zenadesidelight:cinnamon_planks"
+            "items": ["zenadesidelight:cinnamon_planks"]
           }
         ]
       }
