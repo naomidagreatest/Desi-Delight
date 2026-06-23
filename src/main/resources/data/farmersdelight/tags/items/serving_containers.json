@@ -1,6 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "zenadesidelight:tandoor",
+    "minecraft:flower_pot",
     "zenadesidelight:handi"
   ]
 }

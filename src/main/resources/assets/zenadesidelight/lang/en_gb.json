@@ -54,6 +54,8 @@
 
   "block.zenadesidelight.cashew_cabinet": "Cashew Cabinet",
 
+  "block.zenadesidelight.handi": "Handi",
+
   "block.zenadesidelight.tandoor": "Tandoor",
 
   "item.zenadesidelight.fennel": "Fennel",
@@ -87,6 +89,9 @@
   "item.zenadesidelight.tandoori_chicken": "Tandoori Chicken",
 
   "item.zenadesidelight.butter_chicken": "Butter Chicken",
+  "block.zenadesidelight.butter_chicken_block": "Butter Chicken",
+  "item.zenadesidelight.biryani": "Biryani",
+  "block.zenadesidelight.biryani_block": "Biryani",
 
   "item.zenadesidelight.dahi": "Doi",
   "item.zenadesidelight.mishti_doi": "Mishti Doi",

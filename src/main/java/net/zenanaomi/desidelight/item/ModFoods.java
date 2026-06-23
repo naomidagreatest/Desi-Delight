@@ -72,6 +72,14 @@ public class ModFoods {
     public static final FoodProperties BUTTER_CHICKEN = new FoodProperties.Builder()
             .nutrition(9)
             .saturationMod(0.67f)
+            .effect(() -> new MobEffectInstance(vectorwing.farmersdelight.common.registry.ModEffects.NOURISHMENT.get(), 3600, 0, true, true, true), 1.0f)
+            .build();
+
+    public static final FoodProperties BIRYANI = new FoodProperties.Builder()
+            .nutrition(14)
+            .saturationMod(0.786f)
+            .effect(() -> new MobEffectInstance(vectorwing.farmersdelight.common.registry.ModEffects.NOURISHMENT.get(), 6000, 0, true, true, true), 1.0f)
+            .effect(() -> new MobEffectInstance(ModEffects.BURNING.get(), 20, 0, false, false, false), 0.05f)
             .build();
 
     //sweets

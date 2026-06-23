@@ -1,9 +1,6 @@
 package net.zenanaomi.desidelight.item;
 
-import net.minecraft.world.item.HangingSignItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.SignItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -65,12 +62,13 @@ public class ModItems {
     public static final RegistryObject<Item> ALOO_PARATHA = ITEMS.register("aloo_paratha", () -> new Item(new Item.Properties().food(ModFoods.ALOO_PARATHA)));
     public static final RegistryObject<Item> TANDOORI_CHICKEN = ITEMS.register("tandoori_chicken", () -> new Item(new Item.Properties().food(ModFoods.TANDOORI_CHICKEN)));
 
-    //meals
-    public static final RegistryObject<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BUTTER_CHICKEN).stacksTo(1)));
+    //feast servings
+    public static final RegistryObject<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BUTTER_CHICKEN).stacksTo(16)));
+    public static final RegistryObject<Item> BIRYANI = ITEMS.register("biryani", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BIRYANI).stacksTo(16)));
 
     //sweets
-    public static final RegistryObject<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI)));
-    public static final RegistryObject<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.MISHTI_DOI)));
+    public static final RegistryObject<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));
+    public static final RegistryObject<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.MISHTI_DOI).stacksTo(16)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }

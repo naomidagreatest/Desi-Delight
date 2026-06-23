@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_handi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:handi"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_handi"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cooking/biryani"
+    ]
+  },
+  "sends_telemetry_event": false
+}

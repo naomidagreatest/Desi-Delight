@@ -72,6 +72,8 @@ public class ModCreativeTab {
 
                         pOutput.accept(ModBlocks.CASHEW_CABINET.get());
 
+                        pOutput.accept(ModBlocks.HANDI.get());
+
                         pOutput.accept(ModBlocks.TANDOOR.get());
 
                         pOutput.accept(ModItems.FENNEL.get());
@@ -105,6 +107,10 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
 
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
+                        pOutput.accept(ModBlocks.BUTTER_CHICKEN_BLOCK.get());
+                        pOutput.accept(ModItems.BIRYANI.get());
+                        pOutput.accept(ModBlocks.BIRYANI_BLOCK.get());
+
 
                         pOutput.accept(ModItems.DAHI.get());
                         pOutput.accept(ModItems.MISHTI_DOI.get());

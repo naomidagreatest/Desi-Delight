@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "zenadesidelight:handi"
+  },
+  "cookingtime": 2400,
+  "experience": 2.5,
+  "ingredients": [
+    {
+      "tag": "zenadesidelight:biryani_meat"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "zenadesidelight:garam_masala"
+    },
+    {
+      "item": "zenadesidelight:coriander"
+    },
+    {
+      "item": "zenadesidelight:green_chili"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:biryani_block"
+  },
+  "recipe_book_tab": "meals"
+}

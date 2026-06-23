@@ -1,14 +1,10 @@
 package net.zenanaomi.desidelight.block;
 
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +12,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.custom.*;
+import net.zenanaomi.desidelight.block.custom.hitbox_fixing.BiryaniBlock;
+import net.zenanaomi.desidelight.block.custom.hitbox_fixing.ButterChickenBlock;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
 import net.zenanaomi.desidelight.worldgen.tree.CashewTreeGrower;
@@ -27,6 +25,9 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, DesiDelight.MOD_ID);
+
+    //handi
+    public static final RegistryObject<Block> HANDI = registerBlock("handi", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
 
     //tandoor
     public static final RegistryObject<Block> TANDOOR = registerBlock("tandoor", () -> new Tandoor(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS).lightLevel((state) -> 13)));
@@ -84,6 +85,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CASHEW_CABINET = registerBlock("cashew_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
 
+    //feast blocks
+    public static final RegistryObject<Block> BUTTER_CHICKEN_BLOCK = registerBlock("butter_chicken_block", () -> new ButterChickenBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.RICE_ROLL_MEDLEY_BLOCK.get()), ModItems.BUTTER_CHICKEN, true), new Item.Properties().stacksTo(1));
+    public static final RegistryObject<Block> BIRYANI_BLOCK = registerBlock("biryani_block", () -> new BiryaniBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.RICE_ROLL_MEDLEY_BLOCK.get()), ModItems.BIRYANI, false), new Item.Properties().stacksTo(1));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
@@ -92,6 +97,17 @@ public class ModBlocks {
 
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    }
+
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, Item.Properties properties) {
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn, properties);
+        return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, Item.Properties properties) {
+        return ModItems.ITEMS.register(name,
+                () -> new BlockItem(block.get(), properties));
     }
 
     public static void register(IEventBus eventBus) {
