@@ -107,9 +107,9 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
 
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
-                        pOutput.accept(ModBlocks.BUTTER_CHICKEN_BLOCK.get());
+                        pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK.get());
                         pOutput.accept(ModItems.BIRYANI.get());
-                        pOutput.accept(ModBlocks.BIRYANI_BLOCK.get());
+                        pOutput.accept(ModItems.BIRYANI_BLOCK.get());
 
 
                         pOutput.accept(ModItems.DAHI.get());

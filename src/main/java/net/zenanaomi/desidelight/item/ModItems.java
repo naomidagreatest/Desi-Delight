@@ -66,6 +66,10 @@ public class ModItems {
     public static final RegistryObject<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BUTTER_CHICKEN).stacksTo(16)));
     public static final RegistryObject<Item> BIRYANI = ITEMS.register("biryani", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BIRYANI).stacksTo(16)));
 
+    //feast blocks
+    public static final RegistryObject<Item> BUTTER_CHICKEN_BLOCK = ITEMS.register("butter_chicken_block", () -> new BlockItem(ModBlocks.BUTTER_CHICKEN_BLOCK.get(), new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BIRYANI_BLOCK = ITEMS.register("biryani_block", () -> new BlockItem(ModBlocks.BIRYANI_BLOCK.get(), new Item.Properties().stacksTo(1)));
+
     //sweets
     public static final RegistryObject<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));
     public static final RegistryObject<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.MISHTI_DOI).stacksTo(16)));
