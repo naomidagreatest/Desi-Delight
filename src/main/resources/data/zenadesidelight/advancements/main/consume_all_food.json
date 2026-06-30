@@ -1,0 +1,114 @@
+{
+  "parent": "zenadesidelight:main/place_zdd_feast",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:butter_chicken"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.consume_all_food.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.consume_all_food.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ate_naan": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:naan"
+          ]
+        }
+      }
+    },
+    "ate_aloo_paratha": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:aloo_paratha"
+          ]
+        }
+      }
+    },
+    "ate_tandoori_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:tandoori_chicken"
+          ]
+        }
+      }
+    },
+    "ate_butter_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:butter_chicken"
+          ]
+        }
+      }
+    },
+    "ate_biryani": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:biryani"
+          ]
+        }
+      }
+    },
+    "ate_dahi": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:dahi"
+          ]
+        }
+      }
+    },
+    "ate_mishti_doi": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "zenadesidelight:mishti_doi"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_naan"
+    ],
+    [
+      "ate_aloo_paratha"
+    ],
+    [
+      "ate_tandoori_chicken"
+    ],
+    [
+      "ate_butter_chicken"
+    ],
+    [
+      "ate_biryani"
+    ],
+    [
+      "ate_dahi"
+    ],
+    [
+      "ate_mishti_doi"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

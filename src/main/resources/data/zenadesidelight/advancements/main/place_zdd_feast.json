@@ -1,0 +1,49 @@
+{
+  "parent": "zenadesidelight:main/03_place_tandoor",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:biryani_block"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.place_zdd_feast.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.place_zdd_feast.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "butter_chicken_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:butter_chicken_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "biryani_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:biryani_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "butter_chicken_placed",
+      "biryani_placed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

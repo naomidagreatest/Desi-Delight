@@ -1,0 +1,191 @@
+{
+  "parent": "zenadesidelight:main/get_cashew",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:coriander_seeds"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.grow_all_crops.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.grow_all_crops.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fennel_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:fennel_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "cloves_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:cloves_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "cumin_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:cumin_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "star_anise_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:star_anise_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "peppercorn_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:peppercorn_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "bay_leaves_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:bay_leaves_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "coriander_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:coriander_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "chili_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:chili_pepper_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "garlic_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:garlic_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "ginger_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:ginger_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "cinnamon_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:cinnamon_sapling",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "cashew_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:cashew_sapling",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fennel_placed"
+    ],
+    [
+      "cloves_placed"
+    ],
+    [
+      "cumin_placed"
+    ],
+    [
+      "star_anise_placed"
+    ],
+    [
+      "peppercorn_placed"
+    ],
+    [
+      "bay_leaves_placed"
+    ],
+    [
+      "coriander_placed"
+    ],
+    [
+      "chili_placed"
+    ],
+    [
+      "garlic_placed"
+    ],
+    [
+      "ginger_placed"
+    ],
+    [
+      "cinnamon_placed"
+    ],
+    [
+      "cashew_placed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

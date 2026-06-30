@@ -1,0 +1,36 @@
+{
+  "parent": "zenadesidelight:main/01_get_zdd_crop",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:dried_cloves"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.dry_spice.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.dry_spice.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dried_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "zenadesidelight:dried_ingredients"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dried_ingredient"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

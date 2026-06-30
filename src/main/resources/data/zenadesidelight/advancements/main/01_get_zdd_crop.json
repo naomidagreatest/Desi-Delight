@@ -1,0 +1,36 @@
+{
+  "parent": "zenadesidelight:main/root",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:wild_cloves"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.01_get_zdd_crop.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.01_get_zdd_crop.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_crop_item": {
+    "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "zenadesidelight:crop_items"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crop_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

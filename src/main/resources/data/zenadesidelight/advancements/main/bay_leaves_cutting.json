@@ -1,0 +1,38 @@
+{
+  "parent": "zenadesidelight:main/02_cinnamon_cutting",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:bay_leaves"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.bay_leaves_cutting.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.bay_leaves_cutting.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_bay_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:bay_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bay_leaves"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -112,7 +112,35 @@
 
   "entity.zenadesidelight.mod_chest_boat": "Boat with Chest",
 
-  "advancements.zenadesidelight.root.title": "Desi Delight",
   "advancements.zenadesidelight.root": "Desi Delight",
-  "advancements.zenadesidelight.root.description": "Namaste!"
+  "advancements.zenadesidelight.root.title": "Desi Delight",
+  "advancements.zenadesidelight.root.description": "Namaste!",
+
+  "advancements.zenadesidelight.01_get_zdd_crop.title": "Green Thumb",
+  "advancements.zenadesidelight.01_get_zdd_crop.description": "There's many more crops to find in the wild... or maybe they're also in a chest somewhere.",
+  "advancements.zenadesidelight.03_place_tandoor.title": "Smoke, No Mirrors",
+  "advancements.zenadesidelight.03_place_tandoor.description": "Place a tandoor and start cooking!",
+  "advancements.zenadesidelight.02_cinnamon_cutting.title": "Just a Bit Off The Top",
+  "advancements.zenadesidelight.02_cinnamon_cutting.description": "Scrape some cinnamon from its tree bark.",
+
+  "advancements.zenadesidelight.dry_spice.title": "Spicy Sauna",
+  "advancements.zenadesidelight.dry_spice.description": "Dry out a spice.",
+  "advancements.zenadesidelight.get_cashew.title": "Warmth Amidst the Green",
+  "advancements.zenadesidelight.get_cashew.description": "Harvest a cashew fruit from its tree.",
+
+  "advancements.zenadesidelight.dry_all_spices.title": "Herbal Equinox",
+  "advancements.zenadesidelight.dry_all_spices.description": "Dry out every possible spice in Desi Delight.",
+  "advancements.zenadesidelight.grow_all_crops.title": "Agriculturist",
+  "advancements.zenadesidelight.grow_all_crops.description": "Grow every Desi Delight crop and sapling.",
+
+  "advancements.zenadesidelight.place_zdd_feast.title": "Thali For Four",
+  "advancements.zenadesidelight.place_zdd_feast.description": "Jee bhar ke khana khaye!",
+  "advancements.zenadesidelight.biryani_burn.title": "Discomfort and Pain is a Universal Language",
+  "advancements.zenadesidelight.biryani_burn.description": "Accidentally bite into a spice when eating a bowl of biryani.",
+
+  "advancements.zenadesidelight.consume_all_food.title": "Bollywood Buffet",
+  "advancements.zenadesidelight.consume_all_food.description": "Eat a course of every prepared dish in Desi Delight.",
+
+  "advancements.zenadesidelight.bay_leaves_cutting.title": "Pruning Beleafs",
+  "advancements.zenadesidelight.bay_leaves_cutting.description": "Harvest some tej patta from leaves."
 }

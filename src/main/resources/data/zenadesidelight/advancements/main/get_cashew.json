@@ -1,0 +1,38 @@
+{
+  "parent": "zenadesidelight:main/01_get_zdd_crop",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:raw_cashew"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.get_cashew.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.get_cashew.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_cashew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:raw_cashew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cashew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

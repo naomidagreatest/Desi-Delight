@@ -1,0 +1,83 @@
+{
+  "parent": "zenadesidelight:main/dry_spice",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:dried_star_anise"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.dry_all_spices.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.dry_all_spices.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dried_fennel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:dried_fennel"
+            ]
+          }
+        ]
+      }
+    },
+    "dried_cloves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:dried_cloves"
+            ]
+          }
+        ]
+      }
+    },
+    "dried_cumin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:dried_cumin"
+            ]
+          }
+        ]
+      }
+    },
+    "dried_star_anise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:dried_star_anise"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dried_fennel"
+    ],
+    [
+      "dried_cloves"
+    ],
+    [
+      "dried_cumin"
+    ],
+    [
+      "dried_star_anise"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

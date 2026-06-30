@@ -1,0 +1,37 @@
+{
+  "parent": "zenadesidelight:main/root",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:tandoor"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.03_place_tandoor.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.03_place_tandoor.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tandoor_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "zenadesidelight:tandoor",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tandoor_placed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

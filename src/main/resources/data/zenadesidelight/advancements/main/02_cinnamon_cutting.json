@@ -1,0 +1,38 @@
+{
+  "parent": "zenadesidelight:main/root",
+  "display": {
+    "icon": {
+      "item": "zenadesidelight:cinnamon"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.02_cinnamon_cutting.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.02_cinnamon_cutting.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_cinnamon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:cinnamon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cinnamon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
