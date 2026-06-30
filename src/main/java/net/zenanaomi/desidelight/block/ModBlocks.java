@@ -1,6 +1,7 @@
 package net.zenanaomi.desidelight.block;
 
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -12,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.custom.*;
+import net.zenanaomi.desidelight.block.custom.crops.*;
 import net.zenanaomi.desidelight.block.custom.feasts.BiryaniBlock;
 import net.zenanaomi.desidelight.block.custom.feasts.ButterChickenBlock;
 import net.zenanaomi.desidelight.item.ModItems;
@@ -19,6 +21,7 @@ import net.zenanaomi.desidelight.util.ModWoodTypes;
 import net.zenanaomi.desidelight.worldgen.tree.CashewTreeGrower;
 import net.zenanaomi.desidelight.worldgen.tree.CinnamonTreeGrower;
 import vectorwing.farmersdelight.common.block.CabinetBlock;
+import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
 
@@ -85,9 +88,32 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CASHEW_CABINET = registerBlock("cashew_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
 
+    //wild crop blocks
+    public static final RegistryObject<Block> WILD_FENNEL = BLOCKS.register("wild_fennel", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CLOVES = BLOCKS.register("wild_cloves", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CUMIN = BLOCKS.register("wild_cumin", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_STAR_ANISE = BLOCKS.register("wild_star_anise", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_PEPPERCORN = BLOCKS.register("wild_peppercorn", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CORIANDER = BLOCKS.register("wild_coriander", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CHILI_PEPPER = BLOCKS.register("wild_chili_pepper", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_GARLIC = BLOCKS.register("wild_garlic", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_GINGER = BLOCKS.register("wild_ginger", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+
+    //crop blocks
+    public static final RegistryObject<Block> FENNEL_CROP_BLOCK = BLOCKS.register("fennel_crop", () -> new FennelCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> CLOVES_CROP_BLOCK = BLOCKS.register("cloves_crop", () -> new ClovesCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> CUMIN_CROP_BLOCK = BLOCKS.register("cumin_crop", () -> new CuminCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> STAR_ANISE_CROP_BLOCK = BLOCKS.register("star_anise_crop", () -> new StarAniseCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> PEPPERCORN_CROP_BLOCK = BLOCKS.register("peppercorn_crop", () -> new PeppercornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> BAY_LEAVES_CROP_BLOCK = BLOCKS.register("bay_leaves_crop", () -> new BayLeavesCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> CORIANDER_CROP_BLOCK = BLOCKS.register("coriander_crop", () -> new CorianderCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> CHILI_PEPPER_CROP_BLOCK = BLOCKS.register("chili_pepper_crop", () -> new ChiliPepperCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> GARLIC_CROP_BLOCK = BLOCKS.register("garlic_crop", () -> new GarlicCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> GINGER_CROP_BLOCK = BLOCKS.register("ginger_crop", () -> new GingerCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
     //feast blocks
-    public static final RegistryObject<Block> BUTTER_CHICKEN_BLOCK = BLOCKS.register("butter_chicken_block", () -> new ButterChickenBlock(Block.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.RICE_ROLL_MEDLEY_BLOCK.get()), ModItems.BUTTER_CHICKEN, true));
-    public static final RegistryObject<Block> BIRYANI_BLOCK = BLOCKS.register("biryani_block", () -> new BiryaniBlock(Block.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.RICE_ROLL_MEDLEY_BLOCK.get()), ModItems.BIRYANI, false));
+    public static final RegistryObject<Block> BUTTER_CHICKEN_BLOCK = BLOCKS.register("butter_chicken_block", () -> new ButterChickenBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.ROAST_CHICKEN_BLOCK.get()), ModItems.BUTTER_CHICKEN, true));
+    public static final RegistryObject<Block> BIRYANI_BLOCK = BLOCKS.register("biryani_block", () -> new BiryaniBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.ROAST_CHICKEN_BLOCK.get()), ModItems.BIRYANI, false));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

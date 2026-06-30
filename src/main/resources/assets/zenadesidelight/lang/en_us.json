@@ -58,6 +58,20 @@
 
   "block.zenadesidelight.tandoor": "Tandoor",
 
+  "block.zenadesidelight.wild_fennel": "Wild Fennel",
+  "block.zenadesidelight.wild_cloves": "Wild Cloves",
+  "block.zenadesidelight.wild_cumin": "Wild Cumin",
+  "block.zenadesidelight.wild_star_anise": "Wild Star Anise",
+  "block.zenadesidelight.wild_peppercorn": "Wild Peppercorn",
+  "block.zenadesidelight.wild_coriander": "Wild Cilantro",
+  "block.zenadesidelight.wild_chili_pepper": "Wild Chili Pepper",
+  "block.zenadesidelight.wild_garlic": "Wild Garlic",
+  "block.zenadesidelight.wild_ginger": "Wild Ginger",
+
+  "item.zenadesidelight.tejpat_seeds": "Bay Leaf Seeds",
+  "item.zenadesidelight.coriander_seeds": "Cilantro Seeds",
+  "item.zenadesidelight.chili_pepper_seeds": "Chili Pepper Seeds",
+
   "item.zenadesidelight.fennel": "Fennel",
   "item.zenadesidelight.cloves": "Cloves",
   "item.zenadesidelight.cumin": "Cumin",
@@ -96,5 +110,9 @@
   "item.zenadesidelight.dahi": "Dahi",
   "item.zenadesidelight.mishti_doi": "Mishti Doi",
 
-  "entity.zenadesidelight.mod_chest_boat": "Boat with Chest"
+  "entity.zenadesidelight.mod_chest_boat": "Boat with Chest",
+
+  "advancements.zenadesidelight.root.title": "Desi Delight",
+  "advancements.zenadesidelight.root": "Desi Delight",
+  "advancements.zenadesidelight.root.description": "Namaste!"
 }

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "zenadesidelight:fennel_crop",
+    "zenadesidelight:cloves_crop",
+    "zenadesidelight:cumin_crop",
+    "zenadesidelight:star_anise_crop",
+    "zenadesidelight:peppercorn_crop",
+    "zenadesidelight:bay_leaves_crop",
+    "zenadesidelight:coriander_crop",
+    "zenadesidelight:chili_pepper_crop",
+    "zenadesidelight:garlic_crop",
+    "zenadesidelight:ginger_crop"
+  ]
+}

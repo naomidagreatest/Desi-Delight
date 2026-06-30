@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:brick"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_brick"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:handi"
+    ]
+  },
+  "sends_telemetry_event": false
+}

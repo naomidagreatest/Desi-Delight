@@ -19,6 +19,7 @@ public class ModCreativeTab {
                     .icon(() -> new ItemStack(ModBlocks.TANDOOR.get()))
                     .title(Component.translatable("creativetab.desi_delight_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //cinnamon
                         pOutput.accept(ModBlocks.CINNAMON_LOG.get());
                         pOutput.accept(ModBlocks.CINNAMON_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_CINNAMON_LOG.get());
@@ -45,6 +46,7 @@ public class ModCreativeTab {
 
                         pOutput.accept(ModBlocks.CINNAMON_CABINET.get());
 
+                        //cashew
                         pOutput.accept(ModBlocks.CASHEW_LOG.get());
                         pOutput.accept(ModBlocks.CASHEW_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_CASHEW_LOG.get());
@@ -72,10 +74,29 @@ public class ModCreativeTab {
 
                         pOutput.accept(ModBlocks.CASHEW_CABINET.get());
 
+                        //decor and other blocks
                         pOutput.accept(ModBlocks.HANDI.get());
 
+                        //function blocks
                         pOutput.accept(ModBlocks.TANDOOR.get());
 
+                        //wild crops
+                        pOutput.accept(ModItems.WILD_FENNEL.get());
+                        pOutput.accept(ModItems.WILD_CLOVES.get());
+                        pOutput.accept(ModItems.WILD_CUMIN.get());
+                        pOutput.accept(ModItems.WILD_STAR_ANISE.get());
+                        pOutput.accept(ModItems.WILD_PEPPERCORN.get());
+                        pOutput.accept(ModItems.WILD_CORIANDER.get());
+                        pOutput.accept(ModItems.WILD_CHILI_PEPPER.get());
+                        pOutput.accept(ModItems.WILD_GARLIC.get());
+                        pOutput.accept(ModItems.WILD_GINGER.get());
+
+                        //seeds
+                        pOutput.accept(ModItems.TEJPAT_SEEDS.get());
+                        pOutput.accept(ModItems.CORIANDER_SEEDS.get());
+                        pOutput.accept(ModItems.CHILI_PEPPER_SEEDS.get());
+
+                        //crop with dired variants
                         pOutput.accept(ModItems.FENNEL.get());
                         pOutput.accept(ModItems.CLOVES.get());
                         pOutput.accept(ModItems.CUMIN.get());
@@ -85,6 +106,7 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.DRIED_CUMIN.get());
                         pOutput.accept(ModItems.DRIED_STAR_ANISE.get());
 
+                        //other crops
                         pOutput.accept(ModItems.PEPPERCORN.get());
                         pOutput.accept(ModItems.BAY_LEAVES.get());
                         pOutput.accept(ModItems.CORIANDER.get());
@@ -93,25 +115,29 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.GARLIC.get());
                         pOutput.accept(ModItems.GINGER.get());
 
+                        //tree ingredients
                         pOutput.accept(ModItems.CINNAMON.get());
                         pOutput.accept(ModItems.RAW_CASHEW.get());
                         pOutput.accept(ModItems.CASHEW.get());
 
+                        //other ingredients
                         pOutput.accept(ModItems.BUTTER.get());
                         pOutput.accept(ModItems.CASHEW_BUTTER.get());
                         pOutput.accept(ModItems.GARAM_MASALA.get());
                         pOutput.accept(ModItems.TANDOORI_MASALA.get());
 
+                        //small foods
                         pOutput.accept(ModItems.NAAN.get());
                         pOutput.accept(ModItems.ALOO_PARATHA.get());
                         pOutput.accept(ModItems.TANDOORI_CHICKEN.get());
 
+                        //meals and feasts
                         pOutput.accept(ModItems.BUTTER_CHICKEN.get());
                         pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK.get());
                         pOutput.accept(ModItems.BIRYANI.get());
                         pOutput.accept(ModItems.BIRYANI_BLOCK.get());
 
-
+                        //desserts
                         pOutput.accept(ModItems.DAHI.get());
                         pOutput.accept(ModItems.MISHTI_DOI.get());
                     })

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:seeds/tejpat_seeds",
+    "#forge:seeds/coriander_seeds",
+    "#forge:seeds/chili_pepper_seeds"
+  ]
+}

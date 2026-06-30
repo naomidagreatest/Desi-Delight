@@ -25,11 +25,27 @@ public class ModItems {
     public static final RegistryObject<Item> CASHEW_BOAT = ITEMS.register("cashew_boat", () -> new ModBoatItem(false, ModBoatEntity.Type.CASHEW, new Item.Properties()));
     public static final RegistryObject<Item> CASHEW_CHEST_BOAT = ITEMS.register("cashew_chest_boat", () -> new ModBoatItem(true, ModBoatEntity.Type.CASHEW, new Item.Properties()));
 
+    //wild crops
+    public static final RegistryObject<Item> WILD_FENNEL = ITEMS.register("wild_fennel", () -> new BlockItem(ModBlocks.WILD_FENNEL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_CLOVES = ITEMS.register("wild_cloves", () -> new BlockItem(ModBlocks.WILD_CLOVES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_CUMIN = ITEMS.register("wild_cumin", () -> new BlockItem(ModBlocks.WILD_CUMIN.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_STAR_ANISE = ITEMS.register("wild_star_anise", () -> new BlockItem(ModBlocks.WILD_STAR_ANISE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_PEPPERCORN = ITEMS.register("wild_peppercorn", () -> new BlockItem(ModBlocks.WILD_PEPPERCORN.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_CORIANDER = ITEMS.register("wild_coriander", () -> new BlockItem(ModBlocks.WILD_CORIANDER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_CHILI_PEPPER = ITEMS.register("wild_chili_pepper", () -> new BlockItem(ModBlocks.WILD_CHILI_PEPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_GARLIC = ITEMS.register("wild_garlic", () -> new BlockItem(ModBlocks.WILD_GARLIC.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILD_GINGER = ITEMS.register("wild_ginger", () -> new BlockItem(ModBlocks.WILD_GINGER.get(), new Item.Properties()));
+
+    //seeds
+    public static final RegistryObject<Item> TEJPAT_SEEDS = ITEMS.register("tejpat_seeds", () -> new ItemNameBlockItem(ModBlocks.BAY_LEAVES_CROP_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CORIANDER_SEEDS = ITEMS.register("coriander_seeds", () -> new ItemNameBlockItem(ModBlocks.CORIANDER_CROP_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CHILI_PEPPER_SEEDS = ITEMS.register("chili_pepper_seeds", () -> new ItemNameBlockItem(ModBlocks.CHILI_PEPPER_CROP_BLOCK.get(), new Item.Properties()));
+
     //crops
-    public static final RegistryObject<Item> FENNEL = ITEMS.register("fennel", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CLOVES = ITEMS.register("cloves", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CUMIN = ITEMS.register("cumin", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> STAR_ANISE = ITEMS.register("star_anise", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FENNEL = ITEMS.register("fennel", () -> new ItemNameBlockItem(ModBlocks.FENNEL_CROP_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CLOVES = ITEMS.register("cloves", () -> new ItemNameBlockItem(ModBlocks.CLOVES_CROP_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CUMIN = ITEMS.register("cumin", () -> new ItemNameBlockItem(ModBlocks.CUMIN_CROP_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<Item> STAR_ANISE = ITEMS.register("star_anise", () -> new ItemNameBlockItem(ModBlocks.STAR_ANISE_CROP_BLOCK.get(), new Item.Properties()));
 
     //dried variants
     public static final RegistryObject<Item> DRIED_FENNEL = ITEMS.register("dried_fennel", () -> new Item(new Item.Properties()));
@@ -38,13 +54,13 @@ public class ModItems {
     public static final RegistryObject<Item> DRIED_STAR_ANISE = ITEMS.register("dried_star_anise", () -> new Item(new Item.Properties()));
 
     //crops (no dried variants)
-    public static final RegistryObject<Item> PEPPERCORN = ITEMS.register("peppercorn", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PEPPERCORN = ITEMS.register("peppercorn", () -> new ItemNameBlockItem(ModBlocks.PEPPERCORN_CROP_BLOCK.get(), new Item.Properties()));
     public static final RegistryObject<Item> BAY_LEAVES = ITEMS.register("bay_leaves", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CORIANDER = ITEMS.register("coriander", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RED_CHILI = ITEMS.register("red_chili", () -> new Item(new Item.Properties().food(ModFoods.RED_CHILI)));
     public static final RegistryObject<Item> GREEN_CHILI = ITEMS.register("green_chili", () -> new Item(new Item.Properties().food(ModFoods.GREEN_CHILI)));
-    public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic", () -> new Item(new Item.Properties().food(ModFoods.GARLIC)));
-    public static final RegistryObject<Item> GINGER = ITEMS.register("ginger", () -> new Item(new Item.Properties().food(ModFoods.GINGER)));
+    public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic", () -> new ItemNameBlockItem(ModBlocks.GARLIC_CROP_BLOCK.get(), new Item.Properties().food(ModFoods.GARLIC)));
+    public static final RegistryObject<Item> GINGER = ITEMS.register("ginger", () -> new ItemNameBlockItem(ModBlocks.GINGER_CROP_BLOCK.get(), new Item.Properties().food(ModFoods.GINGER)));
 
     //tree ingredients
     public static final RegistryObject<Item> CINNAMON = ITEMS.register("cinnamon", () -> new Item(new Item.Properties()));

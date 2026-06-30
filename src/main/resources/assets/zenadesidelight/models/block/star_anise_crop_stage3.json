@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "zenadesidelight:block/star_anise_crop/star_anise_stage3"
+  }
+}

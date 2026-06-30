@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:red_chili"
+    },
+    {
+      "item": "zenadesidelight:green_chili"
+    }
+  ],
+  "result": {
+    "item": "zenadesidelight:chili_pepper_seeds",
+    "count": 3
+  }
+}

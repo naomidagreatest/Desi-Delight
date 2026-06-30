@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:crops/fennel",
+    "#forge:crops/cloves",
+    "#forge:crops/cumin",
+    "#forge:crops/star_anise",
+    "#forge:crops/peppercorn",
+    "#forge:crops/bay_leaves",
+    "#forge:crops/coriander",
+    "#forge:crops/chili_peppers",
+    "#forge:crops/garlic",
+    "#forge:crops/ginger"
+  ]
+}

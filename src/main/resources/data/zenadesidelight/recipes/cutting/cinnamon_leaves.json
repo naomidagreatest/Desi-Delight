@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cinnamon_leaves"
+    }
+  ],
+  "result": [
+    {
+      "item": "zenadesidelight:bay_leaves",
+      "count": 2
+    },
+    {
+      "item": "zenadesidelight:tejpat_seeds",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
