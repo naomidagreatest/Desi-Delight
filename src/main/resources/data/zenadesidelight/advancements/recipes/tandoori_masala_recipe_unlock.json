@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "item": "zenadesidelight:garam_masala"
+            "items": ["zenadesidelight:garam_masala"]
           }
         ]
       }
