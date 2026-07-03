@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:peppercorn_bag"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_block"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:peppercorn_from_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

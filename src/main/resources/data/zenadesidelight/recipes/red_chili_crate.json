@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:red_chili"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:red_chili_crate",
+    "count": 1
+  }
+}

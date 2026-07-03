@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_star_anise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:dried_star_anise"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_star_anise"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:dried_star_anise_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

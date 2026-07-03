@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cinnamon_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:cinnamon",
+    "count": 9
+  }
+}

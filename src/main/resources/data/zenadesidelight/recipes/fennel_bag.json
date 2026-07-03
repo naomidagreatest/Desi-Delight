@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:fennel"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:fennel_bag",
+    "count": 1
+  }
+}

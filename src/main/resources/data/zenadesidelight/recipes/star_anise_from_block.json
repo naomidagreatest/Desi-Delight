@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:star_anise_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:star_anise",
+    "count": 9
+  }
+}

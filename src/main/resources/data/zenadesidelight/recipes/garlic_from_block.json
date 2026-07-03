@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:garlic_crate"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:garlic",
+    "count": 9
+  }
+}

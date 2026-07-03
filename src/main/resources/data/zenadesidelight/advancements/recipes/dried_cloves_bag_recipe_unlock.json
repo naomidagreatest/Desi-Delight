@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cloves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:dried_cloves"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cloves"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:dried_cloves_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

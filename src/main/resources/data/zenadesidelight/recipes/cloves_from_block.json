@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cloves_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:cloves",
+    "count": 9
+  }
+}

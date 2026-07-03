@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "zenadesidelight:block/storage/bag_bottom",
+    "east": "zenadesidelight:block/storage/bag_side",
+    "north": "zenadesidelight:block/storage/bag_side_tied",
+    "particle": "zenadesidelight:block/storage/cinnamon_bag_top",
+    "south": "zenadesidelight:block/storage/bag_side_tied",
+    "up": "zenadesidelight:block/storage/cinnamon_bag_top",
+    "west": "zenadesidelight:block/storage/bag_side"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:ginger_crate"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:ginger",
+    "count": 9
+  }
+}

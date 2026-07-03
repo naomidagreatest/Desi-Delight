@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:peppercorn_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:peppercorn",
+    "count": 9
+  }
+}

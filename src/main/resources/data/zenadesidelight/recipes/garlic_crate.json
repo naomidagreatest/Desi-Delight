@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:garlic"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:garlic_crate",
+    "count": 1
+  }
+}

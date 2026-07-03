@@ -120,6 +120,26 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.RAW_CASHEW.get());
                         pOutput.accept(ModItems.CASHEW.get());
 
+                        //storage blocks
+                        pOutput.accept(ModBlocks.FENNEL_BAG.get());
+                        pOutput.accept(ModBlocks.CLOVES_BAG.get());
+                        pOutput.accept(ModBlocks.CUMIN_BAG.get());
+                        pOutput.accept(ModBlocks.STAR_ANISE_BAG.get());
+                        pOutput.accept(ModBlocks.DRIED_FENNEL_BAG.get());
+                        pOutput.accept(ModBlocks.DRIED_CLOVES_BAG.get());
+                        pOutput.accept(ModBlocks.DRIED_CUMIN_BAG.get());
+                        pOutput.accept(ModBlocks.DRIED_STAR_ANISE_BAG.get());
+                        pOutput.accept(ModBlocks.PEPPERCORN_BAG.get());
+                        pOutput.accept(ModBlocks.TEJPATTA_BAG.get());
+                        pOutput.accept(ModBlocks.CORIANDER_BAG.get());
+                        pOutput.accept(ModBlocks.RED_CHILI_CRATE.get());
+                        pOutput.accept(ModBlocks.GREEN_CHILI_CRATE.get());
+                        pOutput.accept(ModBlocks.GARLIC_CRATE.get());
+                        pOutput.accept(ModBlocks.GINGER_CRATE.get());
+                        pOutput.accept(ModBlocks.CINNAMON_BAG.get());
+                        pOutput.accept(ModBlocks.RAW_CASHEW_CRATE.get());
+                        pOutput.accept(ModBlocks.CASHEW_CRATE.get());
+
                         //other ingredients
                         pOutput.accept(ModItems.BUTTER.get());
                         pOutput.accept(ModItems.CASHEW_BUTTER.get());

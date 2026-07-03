@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:bay_leaves"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:tejpatta_bag",
+    "count": 1
+  }
+}

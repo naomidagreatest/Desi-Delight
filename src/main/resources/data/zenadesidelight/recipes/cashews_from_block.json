@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cashew_crate"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:cashew",
+    "count": 9
+  }
+}

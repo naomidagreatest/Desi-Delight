@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bay_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:bay_leaves"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_bay_leaves"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:tejpatta_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

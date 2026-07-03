@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:green_chili_crate"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:green_chili",
+    "count": 9
+  }
+}

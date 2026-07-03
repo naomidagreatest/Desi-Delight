@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_chili": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:red_chili"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_red_chili"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:red_chili_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

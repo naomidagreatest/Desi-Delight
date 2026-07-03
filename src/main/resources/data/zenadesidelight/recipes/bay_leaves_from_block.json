@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:tejpatta_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:bay_leaves",
+    "count": 9
+  }
+}

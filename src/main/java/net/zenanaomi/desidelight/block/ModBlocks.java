@@ -111,6 +111,26 @@ public class ModBlocks {
     public static final RegistryObject<Block> GARLIC_CROP_BLOCK = BLOCKS.register("garlic_crop", () -> new GarlicCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
     public static final RegistryObject<Block> GINGER_CROP_BLOCK = BLOCKS.register("ginger_crop", () -> new GingerCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
+    //storage blocks
+    public static final RegistryObject<Block> FENNEL_BAG = registerBlock("fennel_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> CLOVES_BAG = registerBlock("cloves_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> CUMIN_BAG = registerBlock("cumin_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> STAR_ANISE_BAG = registerBlock("star_anise_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> DRIED_FENNEL_BAG = registerBlock("dried_fennel_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> DRIED_CLOVES_BAG = registerBlock("dried_cloves_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> DRIED_CUMIN_BAG = registerBlock("dried_cumin_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> DRIED_STAR_ANISE_BAG = registerBlock("dried_star_anise_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> PEPPERCORN_BAG = registerBlock("peppercorn_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> TEJPATTA_BAG = registerBlock("tejpatta_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> CORIANDER_BAG = registerBlock("coriander_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> RED_CHILI_CRATE = registerBlock("red_chili_crate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_CHILI_CRATE = registerBlock("green_chili_crate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GARLIC_CRATE = registerBlock("garlic_crate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GINGER_CRATE = registerBlock("ginger_crate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CINNAMON_BAG = registerBlock("cinnamon_bag", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+    public static final RegistryObject<Block> RAW_CASHEW_CRATE = registerBlock("raw_cashew_crate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CASHEW_CRATE = registerBlock("cashew_crate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0f).sound(SoundType.WOOD)));
+
     //feast blocks
     public static final RegistryObject<Block> BUTTER_CHICKEN_BLOCK = BLOCKS.register("butter_chicken_block", () -> new ButterChickenBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.ROAST_CHICKEN_BLOCK.get()), ModItems.BUTTER_CHICKEN, true));
     public static final RegistryObject<Block> BIRYANI_BLOCK = BLOCKS.register("biryani_block", () -> new BiryaniBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.ROAST_CHICKEN_BLOCK.get()), ModItems.BIRYANI, false));

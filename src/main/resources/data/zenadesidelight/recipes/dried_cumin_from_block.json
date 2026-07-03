@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:dried_cumin_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:dried_cumin",
+    "count": 9
+  }
+}

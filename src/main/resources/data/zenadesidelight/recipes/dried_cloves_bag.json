@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:dried_cloves"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:dried_cloves_bag",
+    "count": 1
+  }
+}

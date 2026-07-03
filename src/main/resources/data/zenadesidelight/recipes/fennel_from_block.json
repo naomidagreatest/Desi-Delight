@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:fennel_bag"
+    }
+  ],
+
+  "result": {
+    "item": "zenadesidelight:fennel",
+    "count": 9
+  }
+}
