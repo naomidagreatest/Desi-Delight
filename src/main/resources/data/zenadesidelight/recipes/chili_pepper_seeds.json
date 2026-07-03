@@ -3,10 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "zenadesidelight:red_chili"
-    },
-    {
-      "item": "zenadesidelight:green_chili"
+      "tag": "zenadesidelight:chili_peppers"
     }
   ],
   "result": {
