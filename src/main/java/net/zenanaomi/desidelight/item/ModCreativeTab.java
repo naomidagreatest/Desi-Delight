@@ -96,7 +96,7 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.CORIANDER_SEEDS.get());
                         pOutput.accept(ModItems.CHILI_PEPPER_SEEDS.get());
 
-                        //crop with dired variants
+                        //crop with dried variants
                         pOutput.accept(ModItems.FENNEL.get());
                         pOutput.accept(ModItems.CLOVES.get());
                         pOutput.accept(ModItems.CUMIN.get());
