@@ -12,6 +12,13 @@ Welcome to Desi Delight! An addon/expansion mod for Farmer's Delight.
 '''
 
 [[dependencies.zenadesidelight]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.zenadesidelight]]
     modId = "forge"
     mandatory = true
     versionRange = "[47,)"
@@ -19,9 +26,8 @@ Welcome to Desi Delight! An addon/expansion mod for Farmer's Delight.
     side = "BOTH"
 
 [[dependencies.zenadesidelight]]
-    modId = "minecraft"
+    modId = "farmersdelight"
     mandatory = true
-    versionRange = "[1.20.1,1.21)"
-    ordering = "NONE"
+    versionRange = "[1.20.1-1.2.11,)"
+    ordering = "AFTER"
     side = "BOTH"
-
