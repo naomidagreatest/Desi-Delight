@@ -1,0 +1,17 @@
+The following directory, subdirectories, and files within said directory and subdirectories, are not covered by the source code's license :
+-> src/main/resources/assets
+
+You may use and redistribute these assets as part of Minecraft
+modpacks.
+
+You may not:
+-> Sell these assets
+-> Redistribute them standalone
+-> Include them in paid products
+-> Claim ownership of them
+
+Permission for other uses must be obtained from the mod creator.
+
+All other files within this mod are subject to the MIT license.
+
+Copyright (c) 2026 Naomi Miller / ZENA
