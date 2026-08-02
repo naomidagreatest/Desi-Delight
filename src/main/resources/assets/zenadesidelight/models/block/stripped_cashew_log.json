@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "zenadesidelight:block/stripped_cashew_log_top",
+    "side": "zenadesidelight:block/stripped_cashew_log"
+  }
+}

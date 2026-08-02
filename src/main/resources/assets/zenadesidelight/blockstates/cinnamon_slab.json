@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zenadesidelight:block/cinnamon_slab"
+    },
+    "type=double": {
+      "model": "zenadesidelight:block/cinnamon_slab_double"
+    },
+    "type=top": {
+      "model": "zenadesidelight:block/cinnamon_slab_top"
+    }
+  }
+}

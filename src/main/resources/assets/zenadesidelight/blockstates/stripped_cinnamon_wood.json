@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zenadesidelight:block/stripped_cinnamon_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+
+    "axis=y": {
+      "model": "zenadesidelight:block/stripped_cinnamon_wood"
+    },
+
+    "axis=z": {
+      "model": "zenadesidelight:block/stripped_cinnamon_wood_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "creativetab.desi_delight_tab": "Desi Delight",
+
+  "block.zenadesidelight.cinnamon_log": "Cinnamon Log",
+  "block.zenadesidelight.cinnamon_wood": "Cinnamon Wood",
+  "block.zenadesidelight.stripped_cinnamon_log": "Stripped Cinnamon Log",
+  "block.zenadesidelight.stripped_cinnamon_wood": "Stripped Cinnamon Wood",
+
+  "block.zenadesidelight.cinnamon_planks": "Cinnamon Planks",
+  "block.zenadesidelight.cinnamon_stairs": "Cinnamon Stairs",
+  "block.zenadesidelight.cinnamon_slab": "Cinnamon Slab",
+  "block.zenadesidelight.cinnamon_fence": "Cinnamon Fence",
+  "block.zenadesidelight.cinnamon_fence_gate": "Cinnamon Fence Gate",
+  "block.zenadesidelight.cinnamon_door": "Cinnamon Door",
+  "block.zenadesidelight.cinnamon_trapdoor": "Cinnamon Trapdoor",
+  "block.zenadesidelight.cinnamon_pressure_plate": "Cinnamon Pressure Plate",
+  "block.zenadesidelight.cinnamon_button": "Cinnamon Button",
+
+  "block.zenadesidelight.cinnamon_leaves": "Cinnamon Leaves",
+  "block.zenadesidelight.cinnamon_sapling": "Cinnamon Sapling",
+
+  "block.zenadesidelight.cinnamon_sign": "Cinnamon Sign",
+  "block.zenadesidelight.cinnamon_hanging_sign": "Cinnamon Hanging Sign",
+
+  "item.zenadesidelight.cinnamon_boat": "Cinnamon Boat",
+  "item.zenadesidelight.cinnamon_chest_boat": "Cinnamon Chest Boat",
+
+  "block.zenadesidelight.cinnamon_cabinet": "Cinnamon Cabinet",
+
+  "block.zenadesidelight.cashew_log": "Cashew Log",
+  "block.zenadesidelight.cashew_wood": "Cashew Wood",
+  "block.zenadesidelight.stripped_cashew_log": "Stripped Cashew Log",
+  "block.zenadesidelight.stripped_cashew_wood": "Stripped Cashew Wood",
+
+  "block.zenadesidelight.cashew_planks": "Cashew Planks",
+  "block.zenadesidelight.cashew_stairs": "Cashew Stairs",
+  "block.zenadesidelight.cashew_slab": "Cashew Slab",
+  "block.zenadesidelight.cashew_fence": "Cashew Fence",
+  "block.zenadesidelight.cashew_fence_gate": "Cashew Fence Gate",
+  "block.zenadesidelight.cashew_door": "Cashew Door",
+  "block.zenadesidelight.cashew_trapdoor": "Cashew Trapdoor",
+  "block.zenadesidelight.cashew_pressure_plate": "Cashew Pressure Plate",
+  "block.zenadesidelight.cashew_button": "Cashew Button",
+
+  "block.zenadesidelight.cashew_leaves": "Cashew Leaves",
+  "block.zenadesidelight.cashew_leaves_grown": "Full Cashew Leaves",
+  "block.zenadesidelight.cashew_sapling": "Cashew Sapling",
+
+  "block.zenadesidelight.cashew_sign": "Cashew Sign",
+  "block.zenadesidelight.cashew_hanging_sign": "Cashew Hanging Sign",
+
+  "item.zenadesidelight.cashew_boat": "Cashew Boat",
+  "item.zenadesidelight.cashew_chest_boat": "Cashew Chest Boat",
+
+  "block.zenadesidelight.cashew_cabinet": "Cashew Cabinet",
+
+  "block.zenadesidelight.handi": "Handi",
+
+  "block.zenadesidelight.tandoor": "Tandoor",
+
+  "block.zenadesidelight.wild_fennel": "Wild Fennel",
+  "block.zenadesidelight.wild_cloves": "Wild Cloves",
+  "block.zenadesidelight.wild_cumin": "Wild Cumin",
+  "block.zenadesidelight.wild_star_anise": "Wild Star Anise",
+  "block.zenadesidelight.wild_peppercorn": "Wild Peppercorn",
+  "block.zenadesidelight.wild_coriander": "Wild Coriander",
+  "block.zenadesidelight.wild_chili_pepper": "Wild Chili Pepper",
+  "block.zenadesidelight.wild_garlic": "Wild Garlic",
+  "block.zenadesidelight.wild_ginger": "Wild Ginger",
+
+  "item.zenadesidelight.tejpat_seeds": "Tejpat Seeds",
+  "item.zenadesidelight.coriander_seeds": "Coriander Seeds",
+  "item.zenadesidelight.chili_pepper_seeds": "Chilli Pepper Seeds",
+
+  "item.zenadesidelight.fennel": "Fennel",
+  "item.zenadesidelight.cloves": "Cloves",
+  "item.zenadesidelight.cumin": "Cumin",
+  "item.zenadesidelight.star_anise": "Star Anise",
+  "item.zenadesidelight.dried_fennel": "Dried Fennel",
+  "item.zenadesidelight.dried_cloves": "Dried Cloves",
+  "item.zenadesidelight.dried_cumin": "Dried Cumin",
+  "item.zenadesidelight.dried_star_anise": "Dried Star Anise",
+
+  "item.zenadesidelight.peppercorn": "Peppercorn",
+  "item.zenadesidelight.bay_leaves": "Bay Leaves",
+  "item.zenadesidelight.coriander": "Coriander",
+  "item.zenadesidelight.red_chili": "Red Chilli Pepper",
+  "item.zenadesidelight.green_chili": "Green Chilli Pepper",
+  "item.zenadesidelight.garlic": "Garlic",
+  "item.zenadesidelight.ginger": "Ginger",
+
+  "item.zenadesidelight.cinnamon": "Cinnamon",
+  "item.zenadesidelight.raw_cashew": "Raw Cashew",
+  "item.zenadesidelight.cashew": "Roasted Cashew",
+
+  "block.zenadesidelight.fennel_bag": "Bag of Fennel",
+  "block.zenadesidelight.cloves_bag": "Bag of Cloves",
+  "block.zenadesidelight.cumin_bag": "Bag of Cumin",
+  "block.zenadesidelight.star_anise_bag": "Bag of Star Anise",
+  "block.zenadesidelight.dried_fennel_bag": "Bag of Dried Fennel",
+  "block.zenadesidelight.dried_cloves_bag": "Bag of Dried Cloves",
+  "block.zenadesidelight.dried_cumin_bag": "Bag of Dried Cumin",
+  "block.zenadesidelight.dried_star_anise_bag": "Bag of Dried Star Anise",
+  "block.zenadesidelight.peppercorn_bag": "Bag of Peppercorn",
+  "block.zenadesidelight.tejpatta_bag": "Bag of Tej Patta",
+  "block.zenadesidelight.coriander_bag": "Bag of Coriander",
+  "block.zenadesidelight.red_chili_crate": "Red Chilli Crate",
+  "block.zenadesidelight.green_chili_crate": "Green Chilli Crate",
+  "block.zenadesidelight.garlic_crate": "Garlic Crate",
+  "block.zenadesidelight.ginger_crate": "Ginger Crate",
+  "block.zenadesidelight.cinnamon_bag": "Bag of Cinnamon",
+  "block.zenadesidelight.raw_cashew_crate": "Raw Cashew Crate",
+  "block.zenadesidelight.cashew_crate": "Cashew Crate",
+
+  "item.zenadesidelight.butter": "Butter",
+  "item.zenadesidelight.cashew_butter": "Cashew Butter",
+  "item.zenadesidelight.garam_masala": "Garam Masala",
+  "item.zenadesidelight.tandoori_masala": "Tandoori Masala",
+
+  "item.zenadesidelight.naan": "Naan",
+  "item.zenadesidelight.aloo_paratha": "Aloo Paratha",
+  "item.zenadesidelight.tandoori_chicken": "Tandoori Chicken",
+
+  "item.zenadesidelight.butter_chicken": "Butter Chicken",
+  "block.zenadesidelight.butter_chicken_block": "Butter Chicken",
+  "item.zenadesidelight.biryani": "Biryani",
+  "block.zenadesidelight.biryani_block": "Biryani",
+
+  "item.zenadesidelight.dahi": "Doi",
+  "item.zenadesidelight.mishti_doi": "Mishti Doi",
+
+  "entity.zenadesidelight.mod_chest_boat": "Boat with Chest",
+
+  "advancements.zenadesidelight.root": "Desi Delight",
+  "advancements.zenadesidelight.root.title": "Desi Delight",
+  "advancements.zenadesidelight.root.description": "Namaste!",
+
+  "advancements.zenadesidelight.01_get_zdd_crop.title": "Green Thumb",
+  "advancements.zenadesidelight.01_get_zdd_crop.description": "There's many more crops to find in the wild... or maybe they're also in a chest somewhere.",
+  "advancements.zenadesidelight.03_place_tandoor.title": "Smoke, No Mirrors",
+  "advancements.zenadesidelight.03_place_tandoor.description": "Place a tandoor and start cooking!",
+  "advancements.zenadesidelight.02_cinnamon_cutting.title": "Just a Bit Off The Top",
+  "advancements.zenadesidelight.02_cinnamon_cutting.description": "Scrape some cinnamon from its tree bark.",
+
+  "advancements.zenadesidelight.dry_spice.title": "Spicy Sauna",
+  "advancements.zenadesidelight.dry_spice.description": "Dry out a spice.",
+  "advancements.zenadesidelight.get_cashew.title": "Warmth Amidst the Green",
+  "advancements.zenadesidelight.get_cashew.description": "Harvest a cashew fruit from its tree.",
+
+  "advancements.zenadesidelight.dry_all_spices.title": "Herbal Equinox",
+  "advancements.zenadesidelight.dry_all_spices.description": "Dry out every possible spice in Desi Delight.",
+  "advancements.zenadesidelight.grow_all_crops.title": "Agriculturist",
+  "advancements.zenadesidelight.grow_all_crops.description": "Grow every Desi Delight crop and sapling.",
+
+  "advancements.zenadesidelight.place_zdd_feast.title": "Thali For Four",
+  "advancements.zenadesidelight.place_zdd_feast.description": "Jee bhar ke khana khaye!",
+  "advancements.zenadesidelight.biryani_burn.title": "Discomfort and Pain is a Universal Language",
+  "advancements.zenadesidelight.biryani_burn.description": "Accidentally bite into a spice when eating a bowl of biryani.",
+
+  "advancements.zenadesidelight.consume_all_food.title": "Bollywood Buffet",
+  "advancements.zenadesidelight.consume_all_food.description": "Eat a course of every prepared dish in Desi Delight.",
+
+  "advancements.zenadesidelight.bay_leaves_cutting.title": "Pruning Beleafs",
+  "advancements.zenadesidelight.bay_leaves_cutting.description": "Harvest some tej patta from leaves."
+}

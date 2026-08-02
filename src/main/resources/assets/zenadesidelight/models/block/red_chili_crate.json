@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "zenadesidelight:block/storage/cinnamon_crate_bottom",
+    "side": "zenadesidelight:block/storage/red_chili_crate_side",
+    "top": "zenadesidelight:block/storage/red_chili_crate_top"
+  }
+}

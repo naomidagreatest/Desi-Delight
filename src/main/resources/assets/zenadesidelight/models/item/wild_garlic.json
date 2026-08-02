@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "zenadesidelight:block/wild_crops/wild_garlic"
+  }
+}

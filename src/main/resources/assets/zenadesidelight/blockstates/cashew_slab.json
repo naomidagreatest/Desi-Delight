@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zenadesidelight:block/cashew_slab"
+    },
+    "type=double": {
+      "model": "zenadesidelight:block/cashew_slab_double"
+    },
+    "type=top": {
+      "model": "zenadesidelight:block/cashew_slab_top"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "zenadesidelight:block/peppercorn_crop_stage0"
+    },
+    "age=1": {
+      "model": "zenadesidelight:block/peppercorn_crop_stage1"
+    },
+    "age=2": {
+      "model": "zenadesidelight:block/peppercorn_crop_stage2"
+    },
+    "age=3": {
+      "model": "zenadesidelight:block/peppercorn_crop_stage3"
+    },
+    "age=4": {
+      "model": "zenadesidelight:block/peppercorn_crop_stage4"
+    }
+  }
+}

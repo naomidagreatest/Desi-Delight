@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "zenadesidelight:block/bay_leaves_crop/bay_leaves_stage2"
+  }
+}
