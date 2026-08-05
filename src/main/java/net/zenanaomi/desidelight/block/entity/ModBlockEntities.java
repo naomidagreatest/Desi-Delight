@@ -13,6 +13,20 @@ public class ModBlockEntities {
 
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TandoorBlockEntity>> TANDOOR_BE = BLOCK_ENTITIES.register("tandoor_be", () -> BlockEntityType.Builder.of(TandoorBlockEntity::new, ModBlocks.TANDOOR.get()).build(null));
 
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModSignBlockEntity>> DESI_DELIGHT_SIGN = BLOCK_ENTITIES.register("desidelight_sign", () -> BlockEntityType.Builder.of(ModSignBlockEntity::new,
+            ModBlocks.CINNAMON_SIGN.get(),
+            ModBlocks.CINNAMON_WALL_SIGN.get(),
+            ModBlocks.CASHEW_SIGN.get(),
+            ModBlocks.CASHEW_WALL_SIGN.get()
+            ).build(null));
+
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModHangingSignBlockEntity>> DESI_DELIGHT_HANGING_SIGN = BLOCK_ENTITIES.register("desidelight_hanging_sign", () -> BlockEntityType.Builder.of(ModHangingSignBlockEntity::new,
+            ModBlocks.CINNAMON_HANGING_SIGN.get(),
+            ModBlocks.CINNAMON_WALL_HANGING_SIGN.get(),
+            ModBlocks.CASHEW_HANGING_SIGN.get(),
+            ModBlocks.CASHEW_WALL_HANGING_SIGN.get()
+            ).build(null));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }
