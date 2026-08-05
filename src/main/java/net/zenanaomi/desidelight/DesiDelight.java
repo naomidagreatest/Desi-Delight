@@ -84,8 +84,8 @@ public class DesiDelight
             //BlockEntityRenderers.register(ModBlockEntities.DESI_DELIGHT_SIGN.get(), SignRenderer::new);
             //BlockEntityRenderers.register(ModBlockEntities.DESI_DELIGHT_HANGING_SIGN.get(), HangingSignRenderer::new);
 
-            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
-            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
+            EntityRenderers.register(ModEntities.DESI_DELIGHT_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.DESI_DELIGHT_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
         }
     }

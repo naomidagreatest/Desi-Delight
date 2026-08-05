@@ -26,7 +26,7 @@ public class ModBoatEntity extends Boat {
     }
 
     public ModBoatEntity (Level level, double pX, double pY, double pZ) {
-        this(ModEntities.MOD_BOAT.get(), level);
+        this(ModEntities.DESI_DELIGHT_BOAT.get(), level);
         this.setPos(pX, pY, pZ);
         this.xo = pX;
         this.yo = pY;
