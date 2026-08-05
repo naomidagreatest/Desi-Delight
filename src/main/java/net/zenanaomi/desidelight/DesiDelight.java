@@ -2,6 +2,7 @@ package net.zenanaomi.desidelight;
 
 import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.block.entity.ModBlockEntities;
+import net.zenanaomi.desidelight.entity.ModEntities;
 import net.zenanaomi.desidelight.item.ModCreativeTab;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.recipe.ModRecipes;
@@ -26,6 +27,7 @@ public class DesiDelight {
         ModCreativeTab.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModEntities.register(modEventBus);
         ModItems.register(modEventBus);
         ModRecipes.register(modEventBus);
 

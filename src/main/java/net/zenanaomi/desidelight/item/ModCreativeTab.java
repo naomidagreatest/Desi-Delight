@@ -42,10 +42,10 @@ public class ModCreativeTab {
                     pOutput.accept(ModItems.CINNAMON_SIGN);
                     pOutput.accept(ModItems.CINNAMON_HANGING_SIGN);
 
-//                    pOutput.accept(ModItems.CINNAMON_BOAT);
-//                    pOutput.accept(ModItems.CINNAMON_CHEST_BOAT);
-//
-//                    pOutput.accept(ModBlocks.CINNAMON_CABINET);
+                    pOutput.accept(ModItems.CINNAMON_BOAT);
+                    pOutput.accept(ModItems.CINNAMON_CHEST_BOAT);
+
+                    pOutput.accept(ModBlocks.CINNAMON_CABINET);
 
                     //cashew
                     pOutput.accept(ModBlocks.CASHEW_LOG);
@@ -70,10 +70,10 @@ public class ModCreativeTab {
                     pOutput.accept(ModItems.CASHEW_SIGN);
                     pOutput.accept(ModItems.CASHEW_HANGING_SIGN);
 
-//                    pOutput.accept(ModItems.CASHEW_BOAT);
-//                    pOutput.accept(ModItems.CASHEW_CHEST_BOAT);
-//
-//                    pOutput.accept(ModBlocks.CASHEW_CABINET);
+                    pOutput.accept(ModItems.CASHEW_BOAT);
+                    pOutput.accept(ModItems.CASHEW_CHEST_BOAT);
+
+                    pOutput.accept(ModBlocks.CASHEW_CABINET);
 
                     //decor and other blocks
                     pOutput.accept(ModBlocks.HANDI);
@@ -91,13 +91,13 @@ public class ModCreativeTab {
 //                    pOutput.accept(ModItems.WILD_CHILI_PEPPER);
 //                    pOutput.accept(ModItems.WILD_GARLIC);
 //                    pOutput.accept(ModItems.WILD_GINGER);
-
-                    //seeds
+//
+//                    //seeds
 //                    pOutput.accept(ModItems.TEJPAT_SEEDS);
 //                    pOutput.accept(ModItems.CORIANDER_SEEDS);
 //                    pOutput.accept(ModItems.CHILI_PEPPER_SEEDS);
-
-                    //crops with dried variants
+//
+//                    //crops with dried variants
 //                    pOutput.accept(ModItems.FENNEL);
 //                    pOutput.accept(ModItems.CLOVES);
 //                    pOutput.accept(ModItems.CUMIN);
@@ -106,8 +106,8 @@ public class ModCreativeTab {
 //                    pOutput.accept(ModItems.DRIED_CLOVES);
 //                    pOutput.accept(ModItems.DRIED_CUMIN);
 //                    pOutput.accept(ModItems.DRIED_STAR_ANISE);
-
-                    //other crops
+//
+//                    //other crops
 //                    pOutput.accept(ModItems.PEPPERCORN);
 //                    pOutput.accept(ModItems.BAY_LEAVES);
 //                    pOutput.accept(ModItems.CORIANDER);
@@ -115,13 +115,13 @@ public class ModCreativeTab {
 //                    pOutput.accept(ModItems.GREEN_CHILI);
 //                    pOutput.accept(ModItems.GARLIC);
 //                    pOutput.accept(ModItems.GINGER);
-
-                    //tree ingredients
+//
+//                    //tree ingredients
 //                    pOutput.accept(ModItems.CINNAMON);
 //                    pOutput.accept(ModItems.RAW_CASHEW);
 //                    pOutput.accept(ModItems.CASHEW);
-
-                    //storage blocks
+//
+//                    //storage blocks
 //                    pOutput.accept(ModBlocks.FENNEL_BAG);
 //                    pOutput.accept(ModBlocks.CLOVES_BAG);
 //                    pOutput.accept(ModBlocks.CUMIN_BAG);
@@ -143,25 +143,25 @@ public class ModCreativeTab {
 //                    pOutput.accept(ModBlocks.CINNAMON_BAG);
 //                    pOutput.accept(ModBlocks.RAW_CASHEW_CRATE);
 //                    pOutput.accept(ModBlocks.CASHEW_CRATE);
-
-                    //other ingredients
+//
+//                    //other ingredients
 //                    pOutput.accept(ModItems.BUTTER);
 //                    pOutput.accept(ModItems.CASHEW_BUTTER);
 //                    pOutput.accept(ModItems.GARAM_MASALA);
 //                    pOutput.accept(ModItems.TANDOORI_MASALA);
-
-                    //small foods
+//
+//                    //small foods
 //                    pOutput.accept(ModItems.NAAN);
 //                    pOutput.accept(ModItems.ALOO_PARATHA);
 //                    pOutput.accept(ModItems.TANDOORI_CHICKEN);
-
-                    //meals and feasts
+//
+//                    //meals and feasts
 //                    pOutput.accept(ModItems.BUTTER_CHICKEN);
 //                    pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK);
 //                    pOutput.accept(ModItems.BIRYANI);
 //                    pOutput.accept(ModItems.BIRYANI_BLOCK);
-
-                    //desserts
+//
+//                    //desserts
 //                    pOutput.accept(ModItems.DAHI);
 //                    pOutput.accept(ModItems.MISHTI_DOI);
 

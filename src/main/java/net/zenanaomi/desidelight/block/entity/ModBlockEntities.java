@@ -27,6 +27,11 @@ public class ModBlockEntities {
             ModBlocks.CASHEW_WALL_HANGING_SIGN.get()
             ).build(null));
 
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModCabinetBlockEntity>> DESI_DELIGHT_CABINET = BLOCK_ENTITIES.register("desidelight_cabinet", () -> BlockEntityType.Builder.of(ModCabinetBlockEntity::new,
+            ModBlocks.CINNAMON_CABINET.get(),
+            ModBlocks.CASHEW_CABINET.get()
+            ).build(null));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }
