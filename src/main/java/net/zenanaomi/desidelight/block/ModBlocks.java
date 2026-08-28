@@ -5,6 +5,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.neoforged.bus.api.IEventBus;
@@ -14,6 +15,7 @@ import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.custom.*;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
+import net.zenanaomi.desidelight.worldgen.tree.ModTreeGrowers;
 import vectorwing.farmersdelight.common.block.CabinetBlock;
 
 import java.util.function.Supplier;
@@ -49,6 +51,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CINNAMON_HANGING_SIGN = BLOCKS.register("cinnamon_hanging_sign", () -> new ModHangingSignBlock(ModWoodTypes.CINNAMON, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_HANGING_SIGN)));
     public static final DeferredBlock<Block> CINNAMON_WALL_HANGING_SIGN = BLOCKS.register("cinnamon_wall_hanging_sign", () -> new ModWallHangingSignBlock(ModWoodTypes.CINNAMON, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WALL_HANGING_SIGN)));
 
+    public static final DeferredBlock<Block> CINNAMON_SAPLING = registerBlock("cinnamon_sapling", () -> new SaplingBlock(ModTreeGrowers.CINNAMON, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
     public static final DeferredBlock<Block> CINNAMON_CABINET = registerBlock("cinnamon_cabinet", () -> new ModCabinetBlock(BlockBehaviour.Properties.ofFullCopy(vectorwing.farmersdelight.common.registry.ModBlocks.OAK_CABINET.get())));
 
     //cashew tree blocks
@@ -73,6 +77,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CASHEW_WALL_SIGN = BLOCKS.register("cashew_wall_sign", () -> new ModWallSignBlock(ModWoodTypes.CASHEW, BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_WALL_SIGN)));
     public static final DeferredBlock<Block> CASHEW_HANGING_SIGN = BLOCKS.register("cashew_hanging_sign", () -> new ModHangingSignBlock(ModWoodTypes.CASHEW, BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_HANGING_SIGN)));
     public static final DeferredBlock<Block> CASHEW_WALL_HANGING_SIGN = BLOCKS.register("cashew_wall_hanging_sign", () -> new ModWallHangingSignBlock(ModWoodTypes.CASHEW, BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_WALL_HANGING_SIGN)));
+
+    public static final DeferredBlock<Block> CASHEW_SAPLING = registerBlock("cashew_sapling", () -> new SaplingBlock(ModTreeGrowers.CASHEW, BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_SAPLING)));
 
     public static final DeferredBlock<Block> CASHEW_CABINET = registerBlock("cashew_cabinet", () -> new ModCabinetBlock(BlockBehaviour.Properties.ofFullCopy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
 

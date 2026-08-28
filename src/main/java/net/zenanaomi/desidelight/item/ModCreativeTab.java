@@ -37,7 +37,7 @@ public class ModCreativeTab {
                     pOutput.accept(ModBlocks.CINNAMON_BUTTON);
 
                     pOutput.accept(ModBlocks.CINNAMON_LEAVES);
-//                    pOutput.accept(ModBlocks.CINNAMON_SAPLING);
+                    pOutput.accept(ModBlocks.CINNAMON_SAPLING);
 
                     pOutput.accept(ModItems.CINNAMON_SIGN);
                     pOutput.accept(ModItems.CINNAMON_HANGING_SIGN);
@@ -65,7 +65,7 @@ public class ModCreativeTab {
 
                     pOutput.accept(ModBlocks.CASHEW_LEAVES);
                     pOutput.accept(ModBlocks.CASHEW_LEAVES_GROWN);
-//                    pOutput.accept(ModBlocks.CASHEW_SAPLING);
+                    pOutput.accept(ModBlocks.CASHEW_SAPLING);
 
                     pOutput.accept(ModItems.CASHEW_SIGN);
                     pOutput.accept(ModItems.CASHEW_HANGING_SIGN);
@@ -82,88 +82,88 @@ public class ModCreativeTab {
                     pOutput.accept(ModBlocks.TANDOOR);
 
                     //wild crops
-//                    pOutput.accept(ModItems.WILD_FENNEL);
-//                    pOutput.accept(ModItems.WILD_CLOVES);
-//                    pOutput.accept(ModItems.WILD_CUMIN);
-//                    pOutput.accept(ModItems.WILD_STAR_ANISE);
-//                    pOutput.accept(ModItems.WILD_PEPPERCORN);
-//                    pOutput.accept(ModItems.WILD_CORIANDER);
-//                    pOutput.accept(ModItems.WILD_CHILI_PEPPER);
-//                    pOutput.accept(ModItems.WILD_GARLIC);
-//                    pOutput.accept(ModItems.WILD_GINGER);
-//
-//                    //seeds
-//                    pOutput.accept(ModItems.TEJPAT_SEEDS);
-//                    pOutput.accept(ModItems.CORIANDER_SEEDS);
-//                    pOutput.accept(ModItems.CHILI_PEPPER_SEEDS);
-//
-//                    //crops with dried variants
-//                    pOutput.accept(ModItems.FENNEL);
-//                    pOutput.accept(ModItems.CLOVES);
-//                    pOutput.accept(ModItems.CUMIN);
-//                    pOutput.accept(ModItems.STAR_ANISE);
-//                    pOutput.accept(ModItems.DRIED_FENNEL);
-//                    pOutput.accept(ModItems.DRIED_CLOVES);
-//                    pOutput.accept(ModItems.DRIED_CUMIN);
-//                    pOutput.accept(ModItems.DRIED_STAR_ANISE);
-//
-//                    //other crops
-//                    pOutput.accept(ModItems.PEPPERCORN);
-//                    pOutput.accept(ModItems.BAY_LEAVES);
-//                    pOutput.accept(ModItems.CORIANDER);
-//                    pOutput.accept(ModItems.RED_CHILI);
-//                    pOutput.accept(ModItems.GREEN_CHILI);
-//                    pOutput.accept(ModItems.GARLIC);
-//                    pOutput.accept(ModItems.GINGER);
-//
-//                    //tree ingredients
-//                    pOutput.accept(ModItems.CINNAMON);
-//                    pOutput.accept(ModItems.RAW_CASHEW);
-//                    pOutput.accept(ModItems.CASHEW);
-//
-//                    //storage blocks
-//                    pOutput.accept(ModBlocks.FENNEL_BAG);
-//                    pOutput.accept(ModBlocks.CLOVES_BAG);
-//                    pOutput.accept(ModBlocks.CUMIN_BAG);
-//                    pOutput.accept(ModBlocks.STAR_ANISE_BAG);
-//
-//                    pOutput.accept(ModBlocks.DRIED_FENNEL_BAG);
-//                    pOutput.accept(ModBlocks.DRIED_CLOVES_BAG);
-//                    pOutput.accept(ModBlocks.DRIED_CUMIN_BAG);
-//                    pOutput.accept(ModBlocks.DRIED_STAR_ANISE_BAG);
-//
-//                    pOutput.accept(ModBlocks.PEPPERCORN_BAG);
-//                    pOutput.accept(ModBlocks.TEJPATTA_BAG);
-//                    pOutput.accept(ModBlocks.CORIANDER_BAG);
-//                    pOutput.accept(ModBlocks.RED_CHILI_CRATE);
-//                    pOutput.accept(ModBlocks.GREEN_CHILI_CRATE);
-//                    pOutput.accept(ModBlocks.GARLIC_CRATE);
-//                    pOutput.accept(ModBlocks.GINGER_CRATE);
-//
-//                    pOutput.accept(ModBlocks.CINNAMON_BAG);
-//                    pOutput.accept(ModBlocks.RAW_CASHEW_CRATE);
-//                    pOutput.accept(ModBlocks.CASHEW_CRATE);
-//
-//                    //other ingredients
-//                    pOutput.accept(ModItems.BUTTER);
-//                    pOutput.accept(ModItems.CASHEW_BUTTER);
-//                    pOutput.accept(ModItems.GARAM_MASALA);
-//                    pOutput.accept(ModItems.TANDOORI_MASALA);
-//
-//                    //small foods
-//                    pOutput.accept(ModItems.NAAN);
-//                    pOutput.accept(ModItems.ALOO_PARATHA);
-//                    pOutput.accept(ModItems.TANDOORI_CHICKEN);
-//
-//                    //meals and feasts
-//                    pOutput.accept(ModItems.BUTTER_CHICKEN);
-//                    pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK);
-//                    pOutput.accept(ModItems.BIRYANI);
-//                    pOutput.accept(ModItems.BIRYANI_BLOCK);
-//
-//                    //desserts
-//                    pOutput.accept(ModItems.DAHI);
-//                    pOutput.accept(ModItems.MISHTI_DOI);
+                    pOutput.accept(ModItems.WILD_FENNEL);
+                    pOutput.accept(ModItems.WILD_CLOVES);
+                    pOutput.accept(ModItems.WILD_CUMIN);
+                    pOutput.accept(ModItems.WILD_STAR_ANISE);
+                    pOutput.accept(ModItems.WILD_PEPPERCORN);
+                    pOutput.accept(ModItems.WILD_CORIANDER);
+                    pOutput.accept(ModItems.WILD_CHILI_PEPPER);
+                    pOutput.accept(ModItems.WILD_GARLIC);
+                    pOutput.accept(ModItems.WILD_GINGER);
+
+                    //seeds
+                    pOutput.accept(ModItems.TEJPAT_SEEDS);
+                    pOutput.accept(ModItems.CORIANDER_SEEDS);
+                    pOutput.accept(ModItems.CHILI_PEPPER_SEEDS);
+
+                    //crops with dried variants
+                    pOutput.accept(ModItems.FENNEL);
+                    pOutput.accept(ModItems.CLOVES);
+                    pOutput.accept(ModItems.CUMIN);
+                    pOutput.accept(ModItems.STAR_ANISE);
+                    pOutput.accept(ModItems.DRIED_FENNEL);
+                    pOutput.accept(ModItems.DRIED_CLOVES);
+                    pOutput.accept(ModItems.DRIED_CUMIN);
+                    pOutput.accept(ModItems.DRIED_STAR_ANISE);
+
+                    //other crops
+                    pOutput.accept(ModItems.PEPPERCORN);
+                    pOutput.accept(ModItems.BAY_LEAVES);
+                    pOutput.accept(ModItems.CORIANDER);
+                    pOutput.accept(ModItems.RED_CHILI);
+                    pOutput.accept(ModItems.GREEN_CHILI);
+                    pOutput.accept(ModItems.GARLIC);
+                    pOutput.accept(ModItems.GINGER);
+
+                    //tree ingredients
+                    pOutput.accept(ModItems.CINNAMON);
+                    pOutput.accept(ModItems.RAW_CASHEW);
+                    pOutput.accept(ModItems.CASHEW);
+
+                    //storage blocks
+                    pOutput.accept(ModBlocks.FENNEL_BAG);
+                    pOutput.accept(ModBlocks.CLOVES_BAG);
+                    pOutput.accept(ModBlocks.CUMIN_BAG);
+                    pOutput.accept(ModBlocks.STAR_ANISE_BAG);
+
+                    pOutput.accept(ModBlocks.DRIED_FENNEL_BAG);
+                    pOutput.accept(ModBlocks.DRIED_CLOVES_BAG);
+                    pOutput.accept(ModBlocks.DRIED_CUMIN_BAG);
+                    pOutput.accept(ModBlocks.DRIED_STAR_ANISE_BAG);
+
+                    pOutput.accept(ModBlocks.PEPPERCORN_BAG);
+                    pOutput.accept(ModBlocks.TEJPATTA_BAG);
+                    pOutput.accept(ModBlocks.CORIANDER_BAG);
+                    pOutput.accept(ModBlocks.RED_CHILI_CRATE);
+                    pOutput.accept(ModBlocks.GREEN_CHILI_CRATE);
+                    pOutput.accept(ModBlocks.GARLIC_CRATE);
+                    pOutput.accept(ModBlocks.GINGER_CRATE);
+
+                    pOutput.accept(ModBlocks.CINNAMON_BAG);
+                    pOutput.accept(ModBlocks.RAW_CASHEW_CRATE);
+                    pOutput.accept(ModBlocks.CASHEW_CRATE);
+
+                    //other ingredients
+                    pOutput.accept(ModItems.BUTTER);
+                    pOutput.accept(ModItems.CASHEW_BUTTER);
+                    pOutput.accept(ModItems.GARAM_MASALA);
+                    pOutput.accept(ModItems.TANDOORI_MASALA);
+
+                    //small foods
+                    pOutput.accept(ModItems.NAAN);
+                    pOutput.accept(ModItems.ALOO_PARATHA);
+                    pOutput.accept(ModItems.TANDOORI_CHICKEN);
+
+                    //meals and feasts
+                    pOutput.accept(ModItems.BUTTER_CHICKEN);
+                    pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK);
+                    pOutput.accept(ModItems.BIRYANI);
+                    pOutput.accept(ModItems.BIRYANI_BLOCK);
+
+                    //desserts
+                    pOutput.accept(ModItems.DAHI);
+                    pOutput.accept(ModItems.MISHTI_DOI);
 
                 }).build());
 
