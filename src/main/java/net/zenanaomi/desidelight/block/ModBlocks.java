@@ -2,6 +2,7 @@ package net.zenanaomi.desidelight.block;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -17,6 +18,7 @@ import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
 import net.zenanaomi.desidelight.worldgen.tree.ModTreeGrowers;
 import vectorwing.farmersdelight.common.block.CabinetBlock;
+import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
 
@@ -83,6 +85,16 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CASHEW_CABINET = registerBlock("cashew_cabinet", () -> new ModCabinetBlock(BlockBehaviour.Properties.ofFullCopy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
 
     //wild crop blocks
+    public static final DeferredBlock<Block> WILD_FENNEL = BLOCKS.register("wild_fennel", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CLOVES = BLOCKS.register("wild_cloves", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CUMIN = BLOCKS.register("wild_cumin", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_STAR_ANISE = BLOCKS.register("wild_star_anise", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_PEPPERCORN = BLOCKS.register("wild_peppercorn", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CORIANDER = BLOCKS.register("wild_coriander", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CHILI_PEPPER = BLOCKS.register("wild_chili_pepper", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_GARLIC = BLOCKS.register("wild_garlic", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_GINGER = BLOCKS.register("wild_ginger", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+
     //crop blocks
     //storage blocks
     //feast blocks
