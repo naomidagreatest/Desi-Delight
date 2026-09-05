@@ -90,14 +90,14 @@ public class ModBlocks {
 
     //wild crop blocks
     public static final RegistryObject<Block> WILD_FENNEL = BLOCKS.register("wild_fennel", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_CLOVES = BLOCKS.register("wild_cloves", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_CUMIN = BLOCKS.register("wild_cumin", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_STAR_ANISE = BLOCKS.register("wild_star_anise", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_PEPPERCORN = BLOCKS.register("wild_peppercorn", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_CORIANDER = BLOCKS.register("wild_coriander", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_CHILI_PEPPER = BLOCKS.register("wild_chili_pepper", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_GARLIC = BLOCKS.register("wild_garlic", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
-    public static final RegistryObject<Block> WILD_GINGER = BLOCKS.register("wild_ginger", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CLOVES = BLOCKS.register("wild_cloves", () -> new WildCropBlock(MobEffects.DIG_SPEED, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CUMIN = BLOCKS.register("wild_cumin", () -> new WildCropBlock(MobEffects.MOVEMENT_SPEED, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_STAR_ANISE = BLOCKS.register("wild_star_anise", () -> new WildCropBlock(MobEffects.DAMAGE_RESISTANCE, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_PEPPERCORN = BLOCKS.register("wild_peppercorn", () -> new WildCropBlock(MobEffects.BLINDNESS, 8, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CORIANDER = BLOCKS.register("wild_coriander", () -> new WildCropBlock(MobEffects.WATER_BREATHING, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_CHILI_PEPPER = BLOCKS.register("wild_chili_pepper", () -> new WildCropBlock(MobEffects.FIRE_RESISTANCE, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_GARLIC = BLOCKS.register("wild_garlic", () -> new WildCropBlock(MobEffects.POISON, 10, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
+    public static final RegistryObject<Block> WILD_GINGER = BLOCKS.register("wild_ginger", () -> new WildCropBlock(MobEffects.JUMP, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));
 
     //crop blocks
     public static final RegistryObject<Block> FENNEL_CROP_BLOCK = BLOCKS.register("fennel_crop", () -> new FennelCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
