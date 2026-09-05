@@ -33,8 +33,31 @@ public class ModItems {
     public static final DeferredItem<Item> WILD_GARLIC = ITEMS.register("wild_garlic", () -> new BlockItem(ModBlocks.WILD_GARLIC.get(), new Item.Properties()));
     public static final DeferredItem<Item> WILD_GINGER = ITEMS.register("wild_ginger", () -> new BlockItem(ModBlocks.WILD_GINGER.get(), new Item.Properties()));
 
+    //seeds
+    public static final DeferredItem<Item> TEJPAT_SEEDS = ITEMS.register("tejpat_seeds", () -> new ItemNameBlockItem(ModBlocks.BAY_LEAVES_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> CORIANDER_SEEDS = ITEMS.register("coriander_seeds", () -> new ItemNameBlockItem(ModBlocks.CORIANDER_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> CHILI_PEPPER_SEEDS = ITEMS.register("chili_pepper_seeds", () -> new ItemNameBlockItem(ModBlocks.CHILI_PEPPER_CROP_BLOCK.get(), new Item.Properties()));
+
     //crops
-    public static final DeferredItem<Item> FENNEL = ITEMS.register("fennel", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FENNEL = ITEMS.register("fennel", () -> new ItemNameBlockItem(ModBlocks.FENNEL_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> CLOVES = ITEMS.register("cloves", () -> new ItemNameBlockItem(ModBlocks.CLOVES_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> CUMIN = ITEMS.register("cumin", () -> new ItemNameBlockItem(ModBlocks.CUMIN_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> STAR_ANISE = ITEMS.register("star_anise", () -> new ItemNameBlockItem(ModBlocks.STAR_ANISE_CROP_BLOCK.get(), new Item.Properties()));
+
+    //dried variants
+    public static final DeferredItem<Item> DRIED_FENNEL = ITEMS.register("dried_fennel", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DRIED_CLOVES = ITEMS.register("dried_cloves", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DRIED_CUMIN = ITEMS.register("dried_cumin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DRIED_STAR_ANISE = ITEMS.register("dried_star_anise", () -> new Item(new Item.Properties()));
+
+    //crops (no dried variant)
+    public static final DeferredItem<Item> PEPPERCORN = ITEMS.register("peppercorn", () -> new ItemNameBlockItem(ModBlocks.PEPPERCORN_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> BAY_LEAVES = ITEMS.register("bay_leaves", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORIANDER = ITEMS.register("coriander", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RED_CHILI = ITEMS.register("red_chili", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GREEN_CHILI = ITEMS.register("green_chili", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GARLIC = ITEMS.register("garlic", () -> new ItemNameBlockItem(ModBlocks.GARLIC_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> GINGER = ITEMS.register("ginger", () -> new ItemNameBlockItem(ModBlocks.GINGER_CROP_BLOCK.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }

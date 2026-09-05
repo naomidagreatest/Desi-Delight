@@ -14,6 +14,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.custom.*;
+import net.zenanaomi.desidelight.block.custom.crops.*;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
 import net.zenanaomi.desidelight.worldgen.tree.ModTreeGrowers;
@@ -86,16 +87,27 @@ public class ModBlocks {
 
     //wild crop blocks
     public static final DeferredBlock<Block> WILD_FENNEL = BLOCKS.register("wild_fennel", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_CLOVES = BLOCKS.register("wild_cloves", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_CUMIN = BLOCKS.register("wild_cumin", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_STAR_ANISE = BLOCKS.register("wild_star_anise", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_PEPPERCORN = BLOCKS.register("wild_peppercorn", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_CORIANDER = BLOCKS.register("wild_coriander", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_CHILI_PEPPER = BLOCKS.register("wild_chili_pepper", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_GARLIC = BLOCKS.register("wild_garlic", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
-    public static final DeferredBlock<Block> WILD_GINGER = BLOCKS.register("wild_ginger", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CLOVES = BLOCKS.register("wild_cloves", () -> new WildCropBlock(MobEffects.DIG_SPEED, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CUMIN = BLOCKS.register("wild_cumin", () -> new WildCropBlock(MobEffects.MOVEMENT_SPEED, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_STAR_ANISE = BLOCKS.register("wild_star_anise", () -> new WildCropBlock(MobEffects.DAMAGE_RESISTANCE, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_PEPPERCORN = BLOCKS.register("wild_peppercorn", () -> new WildCropBlock(MobEffects.BLINDNESS, 8, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CORIANDER = BLOCKS.register("wild_coriander", () -> new WildCropBlock(MobEffects.WATER_BREATHING, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_CHILI_PEPPER = BLOCKS.register("wild_chili_pepper", () -> new WildCropBlock(MobEffects.FIRE_RESISTANCE, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_GARLIC = BLOCKS.register("wild_garlic", () -> new WildCropBlock(MobEffects.POISON, 10, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+    public static final DeferredBlock<Block> WILD_GINGER = BLOCKS.register("wild_ginger", () -> new WildCropBlock(MobEffects.JUMP, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
 
     //crop blocks
+    public static final DeferredBlock<Block> FENNEL_CROP_BLOCK = BLOCKS.register("fennel_crop", () -> new FennelCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> CLOVES_CROP_BLOCK = BLOCKS.register("cloves_crop", () -> new ClovesCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> CUMIN_CROP_BLOCK = BLOCKS.register("cumin_crop", () -> new CuminCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> STAR_ANISE_CROP_BLOCK = BLOCKS.register("star_anise_crop", () -> new StarAniseCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> PEPPERCORN_CROP_BLOCK = BLOCKS.register("peppercorn_crop", () -> new PeppercornCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> BAY_LEAVES_CROP_BLOCK = BLOCKS.register("bay_leaves_crop", () -> new BayLeavesCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> CORIANDER_CROP_BLOCK = BLOCKS.register("coriander_crop", () -> new CorianderCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> CHILI_PEPPER_CROP_BLOCK = BLOCKS.register("chili_pepper_crop", () -> new ChiliPepperCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> GARLIC_CROP_BLOCK = BLOCKS.register("garlic_crop", () -> new GarlicCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final DeferredBlock<Block> GINGER_CROP_BLOCK = BLOCKS.register("ginger_crop", () -> new GingerCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).noOcclusion().noCollission()));
+
     //storage blocks
     //feast blocks
 

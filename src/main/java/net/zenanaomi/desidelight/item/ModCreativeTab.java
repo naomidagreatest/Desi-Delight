@@ -93,30 +93,30 @@ public class ModCreativeTab {
                     pOutput.accept(ModItems.WILD_GINGER);
 
                     //seeds
-//                    pOutput.accept(ModItems.TEJPAT_SEEDS);
-//                    pOutput.accept(ModItems.CORIANDER_SEEDS);
-//                    pOutput.accept(ModItems.CHILI_PEPPER_SEEDS);
-//
-//                    //crops with dried variants
-//                    pOutput.accept(ModItems.FENNEL);
-//                    pOutput.accept(ModItems.CLOVES);
-//                    pOutput.accept(ModItems.CUMIN);
-//                    pOutput.accept(ModItems.STAR_ANISE);
-//                    pOutput.accept(ModItems.DRIED_FENNEL);
-//                    pOutput.accept(ModItems.DRIED_CLOVES);
-//                    pOutput.accept(ModItems.DRIED_CUMIN);
-//                    pOutput.accept(ModItems.DRIED_STAR_ANISE);
-//
-//                    //other crops
-//                    pOutput.accept(ModItems.PEPPERCORN);
-//                    pOutput.accept(ModItems.BAY_LEAVES);
-//                    pOutput.accept(ModItems.CORIANDER);
-//                    pOutput.accept(ModItems.RED_CHILI);
-//                    pOutput.accept(ModItems.GREEN_CHILI);
-//                    pOutput.accept(ModItems.GARLIC);
-//                    pOutput.accept(ModItems.GINGER);
-//
-//                    //tree ingredients
+                    pOutput.accept(ModItems.TEJPAT_SEEDS);
+                    pOutput.accept(ModItems.CORIANDER_SEEDS);
+                    pOutput.accept(ModItems.CHILI_PEPPER_SEEDS);
+
+                    //crops with dried variants
+                    pOutput.accept(ModItems.FENNEL);
+                    pOutput.accept(ModItems.CLOVES);
+                    pOutput.accept(ModItems.CUMIN);
+                    pOutput.accept(ModItems.STAR_ANISE);
+                    pOutput.accept(ModItems.DRIED_FENNEL);
+                    pOutput.accept(ModItems.DRIED_CLOVES);
+                    pOutput.accept(ModItems.DRIED_CUMIN);
+                    pOutput.accept(ModItems.DRIED_STAR_ANISE);
+
+                    //other crops
+                    pOutput.accept(ModItems.PEPPERCORN);
+                    pOutput.accept(ModItems.BAY_LEAVES);
+                    pOutput.accept(ModItems.CORIANDER);
+                    pOutput.accept(ModItems.RED_CHILI);
+                    pOutput.accept(ModItems.GREEN_CHILI);
+                    pOutput.accept(ModItems.GARLIC);
+                    pOutput.accept(ModItems.GINGER);
+
+                    //tree ingredients
 //                    pOutput.accept(ModItems.CINNAMON);
 //                    pOutput.accept(ModItems.RAW_CASHEW);
 //                    pOutput.accept(ModItems.CASHEW);
