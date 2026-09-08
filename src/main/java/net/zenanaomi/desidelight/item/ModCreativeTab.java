@@ -117,34 +117,34 @@ public class ModCreativeTab {
                     pOutput.accept(ModItems.GINGER);
 
                     //tree ingredients
-//                    pOutput.accept(ModItems.CINNAMON);
-//                    pOutput.accept(ModItems.RAW_CASHEW);
-//                    pOutput.accept(ModItems.CASHEW);
-//
-//                    //storage blocks
-//                    pOutput.accept(ModBlocks.FENNEL_BAG);
-//                    pOutput.accept(ModBlocks.CLOVES_BAG);
-//                    pOutput.accept(ModBlocks.CUMIN_BAG);
-//                    pOutput.accept(ModBlocks.STAR_ANISE_BAG);
-//
-//                    pOutput.accept(ModBlocks.DRIED_FENNEL_BAG);
-//                    pOutput.accept(ModBlocks.DRIED_CLOVES_BAG);
-//                    pOutput.accept(ModBlocks.DRIED_CUMIN_BAG);
-//                    pOutput.accept(ModBlocks.DRIED_STAR_ANISE_BAG);
-//
-//                    pOutput.accept(ModBlocks.PEPPERCORN_BAG);
-//                    pOutput.accept(ModBlocks.TEJPATTA_BAG);
-//                    pOutput.accept(ModBlocks.CORIANDER_BAG);
-//                    pOutput.accept(ModBlocks.RED_CHILI_CRATE);
-//                    pOutput.accept(ModBlocks.GREEN_CHILI_CRATE);
-//                    pOutput.accept(ModBlocks.GARLIC_CRATE);
-//                    pOutput.accept(ModBlocks.GINGER_CRATE);
-//
-//                    pOutput.accept(ModBlocks.CINNAMON_BAG);
-//                    pOutput.accept(ModBlocks.RAW_CASHEW_CRATE);
-//                    pOutput.accept(ModBlocks.CASHEW_CRATE);
-//
-//                    //other ingredients
+                    pOutput.accept(ModItems.CINNAMON);
+                    pOutput.accept(ModItems.RAW_CASHEW);
+                    pOutput.accept(ModItems.CASHEW);
+
+                    //storage blocks
+                    pOutput.accept(ModBlocks.FENNEL_BAG);
+                    pOutput.accept(ModBlocks.CLOVES_BAG);
+                    pOutput.accept(ModBlocks.CUMIN_BAG);
+                    pOutput.accept(ModBlocks.STAR_ANISE_BAG);
+
+                    pOutput.accept(ModBlocks.DRIED_FENNEL_BAG);
+                    pOutput.accept(ModBlocks.DRIED_CLOVES_BAG);
+                    pOutput.accept(ModBlocks.DRIED_CUMIN_BAG);
+                    pOutput.accept(ModBlocks.DRIED_STAR_ANISE_BAG);
+
+                    pOutput.accept(ModBlocks.PEPPERCORN_BAG);
+                    pOutput.accept(ModBlocks.TEJPATTA_BAG);
+                    pOutput.accept(ModBlocks.CORIANDER_BAG);
+                    pOutput.accept(ModBlocks.RED_CHILI_CRATE);
+                    pOutput.accept(ModBlocks.GREEN_CHILI_CRATE);
+                    pOutput.accept(ModBlocks.GARLIC_CRATE);
+                    pOutput.accept(ModBlocks.GINGER_CRATE);
+
+                    pOutput.accept(ModBlocks.CINNAMON_BAG);
+                    pOutput.accept(ModBlocks.RAW_CASHEW_CRATE);
+                    pOutput.accept(ModBlocks.CASHEW_CRATE);
+
+                    //other ingredients
 //                    pOutput.accept(ModItems.BUTTER);
 //                    pOutput.accept(ModItems.CASHEW_BUTTER);
 //                    pOutput.accept(ModItems.GARAM_MASALA);

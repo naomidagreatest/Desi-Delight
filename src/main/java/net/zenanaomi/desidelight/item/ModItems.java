@@ -59,5 +59,16 @@ public class ModItems {
     public static final DeferredItem<Item> GARLIC = ITEMS.register("garlic", () -> new ItemNameBlockItem(ModBlocks.GARLIC_CROP_BLOCK.get(), new Item.Properties()));
     public static final DeferredItem<Item> GINGER = ITEMS.register("ginger", () -> new ItemNameBlockItem(ModBlocks.GINGER_CROP_BLOCK.get(), new Item.Properties()));
 
+    //tree ingredients
+    public static final DeferredItem<Item> CINNAMON = ITEMS.register("cinnamon", () -> new Item((new Item.Properties())));
+    public static final DeferredItem<Item> RAW_CASHEW = ITEMS.register("raw_cashew", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties()));
+
+    //other ingredients
+    //finger food
+    //feast servings
+    //feast blocks
+    //sweets
+
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }
