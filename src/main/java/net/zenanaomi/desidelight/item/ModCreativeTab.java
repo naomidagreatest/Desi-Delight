@@ -145,17 +145,17 @@ public class ModCreativeTab {
                     pOutput.accept(ModBlocks.CASHEW_CRATE);
 
                     //other ingredients
-//                    pOutput.accept(ModItems.BUTTER);
-//                    pOutput.accept(ModItems.CASHEW_BUTTER);
-//                    pOutput.accept(ModItems.GARAM_MASALA);
-//                    pOutput.accept(ModItems.TANDOORI_MASALA);
-//
-//                    //small foods
-//                    pOutput.accept(ModItems.NAAN);
-//                    pOutput.accept(ModItems.ALOO_PARATHA);
-//                    pOutput.accept(ModItems.TANDOORI_CHICKEN);
-//
-//                    //meals and feasts
+                    pOutput.accept(ModItems.BUTTER);
+                    pOutput.accept(ModItems.CASHEW_BUTTER);
+                    pOutput.accept(ModItems.GARAM_MASALA);
+                    pOutput.accept(ModItems.TANDOORI_MASALA);
+
+                    //small foods
+                    pOutput.accept(ModItems.NAAN);
+                    pOutput.accept(ModItems.ALOO_PARATHA);
+                    pOutput.accept(ModItems.TANDOORI_CHICKEN);
+
+                    //meals and feasts
 //                    pOutput.accept(ModItems.BUTTER_CHICKEN);
 //                    pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK);
 //                    pOutput.accept(ModItems.BIRYANI);

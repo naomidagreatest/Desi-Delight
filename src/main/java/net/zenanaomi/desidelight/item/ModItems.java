@@ -54,18 +54,27 @@ public class ModItems {
     public static final DeferredItem<Item> PEPPERCORN = ITEMS.register("peppercorn", () -> new ItemNameBlockItem(ModBlocks.PEPPERCORN_CROP_BLOCK.get(), new Item.Properties()));
     public static final DeferredItem<Item> BAY_LEAVES = ITEMS.register("bay_leaves", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CORIANDER = ITEMS.register("coriander", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RED_CHILI = ITEMS.register("red_chili", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> GREEN_CHILI = ITEMS.register("green_chili", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> GARLIC = ITEMS.register("garlic", () -> new ItemNameBlockItem(ModBlocks.GARLIC_CROP_BLOCK.get(), new Item.Properties()));
-    public static final DeferredItem<Item> GINGER = ITEMS.register("ginger", () -> new ItemNameBlockItem(ModBlocks.GINGER_CROP_BLOCK.get(), new Item.Properties()));
+    public static final DeferredItem<Item> RED_CHILI = ITEMS.register("red_chili", () -> new Item(new Item.Properties().food(ModFoods.GREEN_CHILI)));
+    public static final DeferredItem<Item> GREEN_CHILI = ITEMS.register("green_chili", () -> new Item(new Item.Properties().food(ModFoods.RED_CHILI)));
+    public static final DeferredItem<Item> GARLIC = ITEMS.register("garlic", () -> new ItemNameBlockItem(ModBlocks.GARLIC_CROP_BLOCK.get(), new Item.Properties().food(ModFoods.GARLIC)));
+    public static final DeferredItem<Item> GINGER = ITEMS.register("ginger", () -> new ItemNameBlockItem(ModBlocks.GINGER_CROP_BLOCK.get(), new Item.Properties().food(ModFoods.GINGER)));
 
     //tree ingredients
     public static final DeferredItem<Item> CINNAMON = ITEMS.register("cinnamon", () -> new Item((new Item.Properties())));
     public static final DeferredItem<Item> RAW_CASHEW = ITEMS.register("raw_cashew", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties().food(ModFoods.CASHEW)));
 
     //other ingredients
+    public static final DeferredItem<Item> BUTTER = ITEMS.register("butter", () -> new Item(new Item.Properties().food(ModFoods.BUTTER)));
+    public static final DeferredItem<Item> CASHEW_BUTTER = ITEMS.register("cashew_butter", () -> new Item(new Item.Properties().food(ModFoods.CASHEW_BUTTER)));
+    public static final DeferredItem<Item> GARAM_MASALA = ITEMS.register("garam_masala", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TANDOORI_MASALA = ITEMS.register("tandoori_masala", () -> new Item(new Item.Properties()));
+
     //finger food
+    public static final DeferredItem<Item> NAAN = ITEMS.register("naan", () -> new Item(new Item.Properties().food(ModFoods.NAAN)));
+    public static final DeferredItem<Item> ALOO_PARATHA = ITEMS.register("aloo_paratha", () -> new Item(new Item.Properties().food(ModFoods.ALOO_PARATHA)));
+    public static final DeferredItem<Item> TANDOORI_CHICKEN = ITEMS.register("tandoori_chicken", () -> new Item(new Item.Properties().food(ModFoods.TANDOORI_CHICKEN)));
+
     //feast servings
     //feast blocks
     //sweets

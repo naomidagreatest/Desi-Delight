@@ -2,6 +2,7 @@ package net.zenanaomi.desidelight;
 
 import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.block.entity.ModBlockEntities;
+import net.zenanaomi.desidelight.effect.ModEffects;
 import net.zenanaomi.desidelight.entity.ModEntities;
 import net.zenanaomi.desidelight.item.ModCreativeTab;
 import net.zenanaomi.desidelight.item.ModItems;
@@ -30,6 +31,7 @@ public class DesiDelight {
         ModEntities.register(modEventBus);
         ModItems.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModEffects.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
