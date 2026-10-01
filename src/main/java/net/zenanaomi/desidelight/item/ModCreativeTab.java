@@ -161,9 +161,9 @@ public class ModCreativeTab {
 //                    pOutput.accept(ModItems.BIRYANI);
 //                    pOutput.accept(ModItems.BIRYANI_BLOCK);
 //
-//                    //desserts
-//                    pOutput.accept(ModItems.DAHI);
-//                    pOutput.accept(ModItems.MISHTI_DOI);
+                    //desserts
+                    pOutput.accept(ModItems.DAHI);
+                    pOutput.accept(ModItems.MISHTI_DOI);
 
                 }).build());
 

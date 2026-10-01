@@ -8,6 +8,7 @@ import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.entity.custom.ModBoatEntity;
 import net.zenanaomi.desidelight.item.custom.ModBoatItem;
+import net.zenanaomi.desidelight.item.custom.ModContainerFoodItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DesiDelight.MOD_ID);
@@ -76,8 +77,13 @@ public class ModItems {
     public static final DeferredItem<Item> TANDOORI_CHICKEN = ITEMS.register("tandoori_chicken", () -> new Item(new Item.Properties().food(ModFoods.TANDOORI_CHICKEN)));
 
     //feast servings
+
+
     //feast blocks
+
     //sweets
+    public static final DeferredItem<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));
+    public static final DeferredItem<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }
