@@ -156,11 +156,11 @@ public class ModCreativeTab {
                     pOutput.accept(ModItems.TANDOORI_CHICKEN);
 
                     //meals and feasts
-//                    pOutput.accept(ModItems.BUTTER_CHICKEN);
-//                    pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK);
-//                    pOutput.accept(ModItems.BIRYANI);
-//                    pOutput.accept(ModItems.BIRYANI_BLOCK);
-//
+                    pOutput.accept(ModItems.BUTTER_CHICKEN);
+                    pOutput.accept(ModItems.BUTTER_CHICKEN_BLOCK);
+                    pOutput.accept(ModItems.BIRYANI);
+                    pOutput.accept(ModItems.BIRYANI_BLOCK);
+
                     //desserts
                     pOutput.accept(ModItems.DAHI);
                     pOutput.accept(ModItems.MISHTI_DOI);

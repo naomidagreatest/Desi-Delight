@@ -77,9 +77,12 @@ public class ModItems {
     public static final DeferredItem<Item> TANDOORI_CHICKEN = ITEMS.register("tandoori_chicken", () -> new Item(new Item.Properties().food(ModFoods.TANDOORI_CHICKEN)));
 
     //feast servings
-
+    public static final DeferredItem<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BUTTER_CHICKEN).stacksTo(16)));
+    public static final DeferredItem<Item> BIRYANI = ITEMS.register("biryani", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BIRYANI).stacksTo(16)));
 
     //feast blocks
+    public static final DeferredItem<Item> BUTTER_CHICKEN_BLOCK = ITEMS.register("butter_chicken_block", () -> new BlockItem(ModBlocks.BUTTER_CHICKEN_BLOCK.get(), new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> BIRYANI_BLOCK = ITEMS.register("biryani_block", () -> new BlockItem(ModBlocks.BIRYANI_BLOCK.get(), new Item.Properties().stacksTo(1)));
 
     //sweets
     public static final DeferredItem<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));

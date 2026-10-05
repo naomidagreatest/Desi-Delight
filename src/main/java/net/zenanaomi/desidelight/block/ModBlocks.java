@@ -19,6 +19,7 @@ import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
 import net.zenanaomi.desidelight.worldgen.tree.ModTreeGrowers;
 import vectorwing.farmersdelight.common.block.CabinetBlock;
+import vectorwing.farmersdelight.common.block.FeastBlock;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
@@ -129,6 +130,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CASHEW_CRATE = registerBlock("cashew_crate", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS).strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 
     //feast blocks
+    public static final DeferredBlock<Block> BUTTER_CHICKEN_BLOCK = BLOCKS.register("butter_chicken_block", () -> new FeastBlock(BlockBehaviour.Properties.ofFullCopy(vectorwing.farmersdelight.common.registry.ModBlocks.ROAST_CHICKEN_BLOCK.get()), ModItems.BUTTER_CHICKEN, true));
+    public static final DeferredBlock<Block> BIRYANI_BLOCK = BLOCKS.register("biryani_block", () -> new FeastBlock(BlockBehaviour.Properties.ofFullCopy(vectorwing.farmersdelight.common.registry.ModBlocks.ROAST_CHICKEN_BLOCK.get()), ModItems.BIRYANI, false));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
