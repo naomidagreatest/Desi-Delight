@@ -1,5 +1,6 @@
 package net.zenanaomi.desidelight.item;
 
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -8,10 +9,23 @@ import net.zenanaomi.desidelight.DesiDelight;
 import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.entity.custom.ModBoatEntity;
 import net.zenanaomi.desidelight.item.custom.ModBoatItem;
-import net.zenanaomi.desidelight.item.custom.ModContainerFoodItem;
+import vectorwing.farmersdelight.common.item.ConsumableItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DesiDelight.MOD_ID);
+
+    //helper methods
+    public static Item.Properties bowlFoodItem(FoodProperties food) {
+        return new Item.Properties().food(food).craftRemainder(Items.BOWL).stacksTo(16);
+    }
+
+    public static Item.Properties potFoodItem(FoodProperties food) {
+        return new Item.Properties().food(food).craftRemainder(Items.FLOWER_POT).stacksTo(16);
+    }
+
+    public static Item.Properties drinkItem() {
+        return new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16);
+    }
 
     //wood stuff
     public static final DeferredItem<Item> CINNAMON_SIGN = ITEMS.register("cinnamon_sign", () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.CINNAMON_SIGN.get(), ModBlocks.CINNAMON_WALL_SIGN.get()));
@@ -77,16 +91,16 @@ public class ModItems {
     public static final DeferredItem<Item> TANDOORI_CHICKEN = ITEMS.register("tandoori_chicken", () -> new Item(new Item.Properties().food(ModFoods.TANDOORI_CHICKEN)));
 
     //feast servings
-    public static final DeferredItem<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BUTTER_CHICKEN).stacksTo(16)));
-    public static final DeferredItem<Item> BIRYANI = ITEMS.register("biryani", () -> new ModContainerFoodItem(Items.BOWL, new Item.Properties().food(ModFoods.BIRYANI).stacksTo(16)));
+    public static final DeferredItem<Item> BUTTER_CHICKEN = ITEMS.register("butter_chicken", () -> new ConsumableItem(bowlFoodItem(ModFoods.BUTTER_CHICKEN)));
+    public static final DeferredItem<Item> BIRYANI = ITEMS.register("biryani", () -> new ConsumableItem(bowlFoodItem(ModFoods.BIRYANI)));
 
     //feast blocks
     public static final DeferredItem<Item> BUTTER_CHICKEN_BLOCK = ITEMS.register("butter_chicken_block", () -> new BlockItem(ModBlocks.BUTTER_CHICKEN_BLOCK.get(), new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> BIRYANI_BLOCK = ITEMS.register("biryani_block", () -> new BlockItem(ModBlocks.BIRYANI_BLOCK.get(), new Item.Properties().stacksTo(1)));
 
     //sweets
-    public static final DeferredItem<Item> DAHI = ITEMS.register("dahi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));
-    public static final DeferredItem<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ModContainerFoodItem(Items.FLOWER_POT, new Item.Properties().food(ModFoods.DAHI).stacksTo(16)));
+    public static final DeferredItem<Item> DAHI = ITEMS.register("dahi", () -> new ConsumableItem(potFoodItem(ModFoods.DAHI)));
+    public static final DeferredItem<Item> MISHTI_DOI = ITEMS.register("mishti_doi", () -> new ConsumableItem(potFoodItem(ModFoods.MISHTI_DOI)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }
