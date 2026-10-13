@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "zenadesidelight:star_anise"
+  },
+  "result": {
+    "id":"zenadesidelight:dried_star_anise",
+    "count": 1
+  }
+}

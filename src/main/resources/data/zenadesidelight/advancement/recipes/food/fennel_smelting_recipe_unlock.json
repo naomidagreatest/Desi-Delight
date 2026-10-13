@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fennel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:fennel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_fennel"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:smelting/fennel_smelting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

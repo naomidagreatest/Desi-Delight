@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cashew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:raw_cashew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_cashew"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:smelting/cashew_smelting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

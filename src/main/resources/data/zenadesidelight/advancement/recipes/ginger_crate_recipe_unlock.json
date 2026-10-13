@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ginger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:ginger"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_ginger"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:ginger_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

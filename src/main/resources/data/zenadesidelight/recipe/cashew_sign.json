@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "###",
+    "###",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cashew_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cashew_sign",
+    "count": 3
+  }
+}

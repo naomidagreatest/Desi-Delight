@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hanging_sign",
+  "pattern": [
+    "/ /",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cashew_planks"
+    },
+    "/": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cashew_hanging_sign",
+    "count": 6
+  }
+}

@@ -179,7 +179,7 @@ public class TandoorBlockEntity extends BlockEntity {
     protected void saveAdditional(CompoundTag tag, HolderLookup.Provider registries) {
         super.saveAdditional(tag, registries);
         tag.put("inventory", itemHandler.serializeNBT(registries));
-        tag.putInt("progress", progress);
+        tag.putInt("tandoor_progress", progress);
     }
 
     @Override
@@ -189,6 +189,6 @@ public class TandoorBlockEntity extends BlockEntity {
             itemHandler.deserializeNBT(registries, tag.getCompound("inventory"));
         }
 
-        progress = tag.getInt("progress");
+        progress = tag.getInt("tandoor_progress");
     }
 }

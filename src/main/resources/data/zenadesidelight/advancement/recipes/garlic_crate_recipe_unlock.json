@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_garlic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:garlic"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_garlic"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:garlic_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

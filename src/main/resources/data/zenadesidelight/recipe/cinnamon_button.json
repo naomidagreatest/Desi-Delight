@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cinnamon_planks"
+    }
+  ],
+  "result": {
+    "id": "zenadesidelight:cinnamon_button",
+    "count": 1
+  }
+}

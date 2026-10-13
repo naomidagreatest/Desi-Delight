@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "zenadesidelight:raw_cashew"
+  },
+  "result": {
+    "id": "zenadesidelight:cashew",
+    "count": 1
+  }
+}

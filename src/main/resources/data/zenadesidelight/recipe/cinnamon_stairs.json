@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cinnamon_planks"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cinnamon_stairs",
+    "count": 4
+  }
+}

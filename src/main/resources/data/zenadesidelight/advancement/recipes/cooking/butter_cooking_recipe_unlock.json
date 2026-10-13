@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_milk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:milk_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_milk"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cooking/butter"
+    ]
+  },
+  "sends_telemetry_event": false
+}

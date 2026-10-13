@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cashew_planks"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cashew_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fennel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:dried_fennel"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_fennel"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:dried_fennel_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

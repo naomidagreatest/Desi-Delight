@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_cabinet",
+  "key": {
+    "D": {
+      "item": "zenadesidelight:cinnamon_trapdoor"
+    },
+    "_": {
+      "item": "zenadesidelight:cinnamon_slab"
+    }
+  },
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "result": {
+    "id": "zenadesidelight:cinnamon_cabinet",
+    "count": 1
+  }
+}

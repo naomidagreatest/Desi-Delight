@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cinnamon_planks"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cinnamon_slab",
+    "count": 6
+  }
+}

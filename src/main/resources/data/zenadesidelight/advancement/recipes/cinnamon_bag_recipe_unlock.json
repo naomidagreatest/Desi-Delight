@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cinnamon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:cinnamon"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cinnamon"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cinnamon_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

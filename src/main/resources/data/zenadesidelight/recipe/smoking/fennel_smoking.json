@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "zenadesidelight:fennel"
+  },
+  "result": {
+    "id": "zenadesidelight:dried_fennel",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:flower_pot",
+    "count": 1
+  },
+  "cookingtime": 600,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "zenadesidelight:red_chili"
+    }
+  ],
+  "result": {
+    "id": "zenadesidelight:dahi",
+    "count": 1
+  },
+  "recipe_book_tab": "misc"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cinnamon_planks"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cinnamon_door",
+    "count": 3
+  }
+}

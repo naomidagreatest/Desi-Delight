@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "zenadesidelight:cloves"
+  },
+  "result": {
+    "id": "zenadesidelight:dried_cloves",
+    "count": 1
+  }
+}

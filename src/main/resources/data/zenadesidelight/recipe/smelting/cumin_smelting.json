@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "zenadesidelight:cumin"
+  },
+  "result": {
+    "id": "zenadesidelight:dried_cumin",
+    "count": 1
+  }
+}

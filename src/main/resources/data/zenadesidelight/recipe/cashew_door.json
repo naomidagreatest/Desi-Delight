@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "zenadesidelight:cashew_planks"
+    }
+  },
+  "result": {
+    "id": "zenadesidelight:cashew_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coriander": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zenadesidelight:coriander"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_coriander"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:coriander_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

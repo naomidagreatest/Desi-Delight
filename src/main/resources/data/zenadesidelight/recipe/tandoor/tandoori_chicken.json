@@ -1,0 +1,17 @@
+{
+  "type": "zenadesidelight:tandoor_cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    {
+      "item": "zenadesidelight:tandoori_masala"
+    },
+    {
+      "item": "zenadesidelight:dahi"
+    }
+  ],
+  "result": {
+    "id": "zenadesidelight:tandoori_chicken"
+  }
+}

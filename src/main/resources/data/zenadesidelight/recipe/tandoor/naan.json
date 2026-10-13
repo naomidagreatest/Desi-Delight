@@ -1,0 +1,17 @@
+{
+  "type": "zenadesidelight:tandoor_cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "item": "zenadesidelight:butter"
+    },
+    {
+      "item": "zenadesidelight:garlic"
+    }
+  ],
+  "result": {
+    "id": "zenadesidelight:naan"
+  }
+}

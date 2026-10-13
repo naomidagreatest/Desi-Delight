@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+
+  "ingredients": [
+    {
+      "tag": "zenadesidelight:cashew_logs"
+    }
+  ],
+
+  "result": {
+    "id": "zenadesidelight:cashew_planks",
+    "count": 4
+  }
+}

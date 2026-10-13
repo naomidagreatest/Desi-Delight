@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:tandoori_chicken"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_chicken"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cooking/butter_chicken"
+    ]
+  },
+  "sends_telemetry_event": false
+}

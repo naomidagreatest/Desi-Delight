@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_star_anise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:star_anise"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_star_anise"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:smoking/star_anise_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

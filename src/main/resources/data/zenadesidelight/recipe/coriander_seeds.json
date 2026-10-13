@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:coriander"
+    }
+  ],
+  "result": {
+    "id": "zenadesidelight:coriander_seeds",
+    "count": 3
+  }
+}
