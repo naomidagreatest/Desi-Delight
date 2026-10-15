@@ -6,6 +6,7 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -54,7 +55,9 @@ public class DesiDelight
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        event.enqueueWork(() -> {
+            registerCompostables();
+        });
     }
 
 
@@ -88,5 +91,45 @@ public class DesiDelight
             EntityRenderers.register(ModEntities.DESI_DELIGHT_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
         }
+    }
+
+    public static void registerCompostables() {
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_FENNEL.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_CLOVES.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_CUMIN.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_STAR_ANISE.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_PEPPERCORN.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_CORIANDER.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_CHILI_PEPPER.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_GARLIC.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.WILD_GINGER.get(), 0.65f);
+
+        ComposterBlock.COMPOSTABLES.put(ModItems.TEJPAT_SEEDS.get(), 0.3f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.CORIANDER_SEEDS.get(), 0.3f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.CHILI_PEPPER_SEEDS.get(), 0.3f);
+
+        ComposterBlock.COMPOSTABLES.put(ModItems.FENNEL.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.CLOVES.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.CUMIN.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.STAR_ANISE.get(), 0.65f);
+
+        ComposterBlock.COMPOSTABLES.put(ModItems.DRIED_FENNEL.get(), 0.75f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.DRIED_CLOVES.get(), 0.75f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.DRIED_CUMIN.get(), 0.75f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.DRIED_STAR_ANISE.get(), 0.75f);
+
+        ComposterBlock.COMPOSTABLES.put(ModItems.PEPPERCORN.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.CORIANDER.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.RED_CHILI.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.GREEN_CHILI.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.GINGER.get(), 0.65f);
+
+        ComposterBlock.COMPOSTABLES.put(ModItems.CINNAMON.get(), 0.75f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.RAW_CASHEW.get(), 0.65f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.CASHEW.get(), 0.75f);
+
+        ComposterBlock.COMPOSTABLES.put(ModItems.NAAN.get(), 0.85f);
+        ComposterBlock.COMPOSTABLES.put(ModItems.ALOO_PARATHA.get(), 0.85f);
     }
 }

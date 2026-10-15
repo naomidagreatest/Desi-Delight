@@ -59,7 +59,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CINNAMON_SAPLING = registerBlock("cinnamon_sapling", () -> new SaplingBlock(new CinnamonTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
-    public static final RegistryObject<Block> CINNAMON_CABINET = registerBlock("cinnamon_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.OAK_CABINET.get())));
+    public static final RegistryObject<Block> CINNAMON_CABINET = BLOCKS.register("cinnamon_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.OAK_CABINET.get())));
 
     //cashew tree blocks
     public static final RegistryObject<Block> CASHEW_LOG = registerBlock("cashew_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LOG)));
@@ -86,7 +86,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CASHEW_SAPLING = registerBlock("cashew_sapling", () -> new SaplingBlock(new CashewTreeGrower(), BlockBehaviour.Properties.copy(Blocks.BIRCH_SAPLING)));
 
-    public static final RegistryObject<Block> CASHEW_CABINET = registerBlock("cashew_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
+    public static final RegistryObject<Block> CASHEW_CABINET = BLOCKS.register("cashew_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(vectorwing.farmersdelight.common.registry.ModBlocks.BIRCH_CABINET.get())));
 
     //wild crop blocks
     public static final RegistryObject<Block> WILD_FENNEL = BLOCKS.register("wild_fennel", () -> new WildCropBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS)));

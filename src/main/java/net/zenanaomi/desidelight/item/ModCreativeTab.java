@@ -44,7 +44,7 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.CINNAMON_BOAT.get());
                         pOutput.accept(ModItems.CINNAMON_CHEST_BOAT.get());
 
-                        pOutput.accept(ModBlocks.CINNAMON_CABINET.get());
+                        pOutput.accept(ModItems.CINNAMON_CABINET.get());
 
                         //cashew
                         pOutput.accept(ModBlocks.CASHEW_LOG.get());
@@ -72,7 +72,7 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.CASHEW_BOAT.get());
                         pOutput.accept(ModItems.CASHEW_CHEST_BOAT.get());
 
-                        pOutput.accept(ModBlocks.CASHEW_CABINET.get());
+                        pOutput.accept(ModItems.CASHEW_CABINET.get());
 
                         //decor and other blocks
                         pOutput.accept(ModBlocks.HANDI.get());

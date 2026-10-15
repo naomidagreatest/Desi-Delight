@@ -11,6 +11,7 @@ import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.entity.custom.ModBoatEntity;
 import net.zenanaomi.desidelight.item.custom.ModBoatItem;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.FuelBlockItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -34,10 +35,13 @@ public class ModItems {
     public static final RegistryObject<Item> CINNAMON_HANGING_SIGN = ITEMS.register("cinnamon_hanging_sign", () -> new HangingSignItem(ModBlocks.CINNAMON_HANGING_SIGN.get(), ModBlocks.CINNAMON_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> CINNAMON_BOAT = ITEMS.register("cinnamon_boat", () -> new ModBoatItem(false, ModBoatEntity.Type.CINNAMON, new Item.Properties()));
     public static final RegistryObject<Item> CINNAMON_CHEST_BOAT = ITEMS.register("cinnamon_chest_boat", () -> new ModBoatItem(true, ModBoatEntity.Type.CINNAMON, new Item.Properties()));
+    public static final RegistryObject<Item> CINNAMON_CABINET = ITEMS.register("cinnamon_cabinet", () -> new FuelBlockItem(ModBlocks.CINNAMON_CABINET.get(), new Item.Properties(), 300));
+
     public static final RegistryObject<Item> CASHEW_SIGN = ITEMS.register("cashew_sign", () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.CASHEW_SIGN.get(), ModBlocks.CASHEW_WALL_SIGN.get()));
     public static final RegistryObject<Item> CASHEW_HANGING_SIGN = ITEMS.register("cashew_hanging_sign", () -> new HangingSignItem(ModBlocks.CASHEW_HANGING_SIGN.get(), ModBlocks.CASHEW_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> CASHEW_BOAT = ITEMS.register("cashew_boat", () -> new ModBoatItem(false, ModBoatEntity.Type.CASHEW, new Item.Properties()));
     public static final RegistryObject<Item> CASHEW_CHEST_BOAT = ITEMS.register("cashew_chest_boat", () -> new ModBoatItem(true, ModBoatEntity.Type.CASHEW, new Item.Properties()));
+    public static final RegistryObject<Item> CASHEW_CABINET = ITEMS.register("cashew_cabinet", () -> new FuelBlockItem(ModBlocks.CASHEW_CABINET.get(), new Item.Properties(), 300));
 
     //wild crops
     public static final RegistryObject<Item> WILD_FENNEL = ITEMS.register("wild_fennel", () -> new BlockItem(ModBlocks.WILD_FENNEL.get(), new Item.Properties()));
