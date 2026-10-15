@@ -12,6 +12,7 @@ public class ModEffects {
     public static final DeferredRegister<MobEffect> EFFECTS = DeferredRegister.create(BuiltInRegistries.MOB_EFFECT, DesiDelight.MOD_ID);
 
     public static final Holder<MobEffect> BURNING = EFFECTS.register("burning", BurningEffect::new);
+    public static final Holder<MobEffect> BURNING_SP = EFFECTS.register("burning_sp", BurningSpecialEffect::new);
 
     public static void register(IEventBus eventBus) {
         EFFECTS.register(eventBus);

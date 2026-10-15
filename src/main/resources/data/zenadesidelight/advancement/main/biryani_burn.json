@@ -1,0 +1,34 @@
+{
+  "parent": "zenadesidelight:main/03_place_tandoor",
+  "display": {
+    "icon": {
+      "id": "zenadesidelight:red_chili"
+    },
+    "title": {
+      "translate": "advancements.zenadesidelight.biryani_burn.title"
+    },
+    "description": {
+      "translate": "advancements.zenadesidelight.biryani_burn.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ate_biryani": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "zenadesidelight:burning_sp": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_biryani"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
