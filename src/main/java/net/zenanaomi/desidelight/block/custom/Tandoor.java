@@ -29,6 +29,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.zenanaomi.desidelight.block.entity.ModBlockEntities;
 import net.zenanaomi.desidelight.block.entity.TandoorBlockEntity;
+import net.zenanaomi.desidelight.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 import vectorwing.farmersdelight.common.registry.ModSounds;
 
@@ -124,7 +125,7 @@ public class Tandoor extends BaseEntityBlock {
                 }
                 ItemStack held = player.getItemInHand(hand);
                 for (int i = 0; i < 4; i++) {
-                    if (tandoor.getItem(i).isEmpty()) {
+                    if (tandoor.getItem(i).isEmpty() && held.is(ModTags.Items.TANDOOR_INGREDIENTS)) {
                         tandoor.setItem(i, held.split(1));
                         break;
                     }

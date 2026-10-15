@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#c:crops/fennel",
+    "#c:crops/cloves",
+    "#c:crops/cumin",
+    "#c:crops/star_anise",
+    "#c:crops/peppercorn",
+    "#c:crops/bay_leaves",
+    "#c:crops/coriander",
+    "#c:crops/chili_peppers",
+    "#c:crops/garlic",
+    "#c:crops/ginger"
+  ]
+}

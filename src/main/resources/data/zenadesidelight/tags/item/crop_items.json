@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "zenadesidelight:fennel",
+    "zenadesidelight:cloves",
+    "zenadesidelight:cumin",
+    "zenadesidelight:star_anise",
+    "zenadesidelight:peppercorn",
+    "zenadesidelight:bay_leaves",
+    "zenadesidelight:coriander",
+    "#zenadesidelight:chili_peppers",
+    "zenadesidelight:garlic",
+    "zenadesidelight:ginger"
+  ]
+}

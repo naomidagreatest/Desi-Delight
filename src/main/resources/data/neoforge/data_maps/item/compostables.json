@@ -1,0 +1,106 @@
+{
+  "values": {
+    "zenadesidelight:wild_fennel": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_cloves": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_cumin": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_star_anise": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_peppercorn": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_coriander": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_chili_pepper": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_garlic": {
+      "chance": 0.65
+    },
+    "zenadesidelight:wild_ginger": {
+      "chance": 0.65
+    },
+
+    "zenadesidelight:tejpat_seeds": {
+      "chance": 0.3
+    },
+    "zenadesidelight:coriander_seeds": {
+      "chance": 0.3
+    },
+    "zenadesidelight:chili_pepper_seeds": {
+      "chance": 0.3
+    },
+
+    "zenadesidelight:fennel": {
+      "chance": 0.65
+    },
+    "zenadesidelight:cloves": {
+      "chance": 0.65
+    },
+    "zenadesidelight:cumin": {
+      "chance": 0.65
+    },
+    "zenadesidelight:star_anise": {
+      "chance": 0.65
+    },
+
+    "zenadesidelight:dried_fennel": {
+      "chance": 0.75
+    },
+    "zenadesidelight:dried_cloves": {
+      "chance": 0.75
+    },
+    "zenadesidelight:dried_cumin": {
+      "chance": 0.75
+    },
+    "zenadesidelight:dried_star_anise": {
+      "chance": 0.75
+    },
+
+    "zenadesidelight:peppercorn": {
+      "chance": 0.65
+    },
+    "zenadesidelight:bay_leaves": {
+      "chance": 0.65
+    },
+    "zenadesidelight:coriander": {
+      "chance": 0.65
+    },
+    "zenadesidelight:red_chili": {
+      "chance": 0.65
+    },
+    "zenadesidelight:green_chili": {
+      "chance": 0.65
+    },
+    "zenadesidelight:garlic": {
+      "chance": 0.65
+    },
+    "zenadesidelight:ginger": {
+      "chance": 0.65
+    },
+
+    "zenadesidelight:cinnamon": {
+      "chance": 0.75
+    },
+    "zenadesidelight:raw_cashew": {
+      "chance": 0.65
+    },
+    "zenadesidelight:cashew": {
+      "chance": 0.75
+    },
+
+    "zenadesidelight:naan": {
+      "chance": 0.85
+    },
+    "zenadesidelight:aloo_paratha": {
+      "chance": 0.85
+    }
+  }
+}

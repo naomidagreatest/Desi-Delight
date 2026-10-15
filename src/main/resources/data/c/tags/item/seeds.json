@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#c:seeds/tejpat_seeds",
+    "#c:seeds/coriander_seeds",
+    "#c:seeds/chili_pepper_seeds"
+  ]
+}
