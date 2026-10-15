@@ -79,7 +79,7 @@ public class ModFoods {
             .nutrition(14)
             .saturationMod(0.786f)
             .effect(() -> new MobEffectInstance(vectorwing.farmersdelight.common.registry.ModEffects.NOURISHMENT.get(), 6000, 0, true, true, true), 1.0f)
-            .effect(() -> new MobEffectInstance(ModEffects.BURNING.get(), 20, 0, false, false, false), 0.05f)
+            .effect(() -> new MobEffectInstance(ModEffects.BURNING_SP.get(), 20, 0, false, false, false), 0.05f)
             .build();
 
     //sweets
