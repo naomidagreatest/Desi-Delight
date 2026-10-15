@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "zenadesidelight:dried_ingredients"
+            "items": "#zenadesidelight:dried_ingredients"
           }
         ]
       }

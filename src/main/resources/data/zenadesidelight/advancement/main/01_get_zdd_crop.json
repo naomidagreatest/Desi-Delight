@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "zenadesidelight:crop_items"
+            "items": "#zenadesidelight:crop_items"
           }
         ]
       }
