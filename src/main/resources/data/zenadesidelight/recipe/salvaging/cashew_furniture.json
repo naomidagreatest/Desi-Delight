@@ -1,0 +1,55 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "zenadesidelight:cashew_door"
+        },
+        {
+          "item": "zenadesidelight:cashew_trapdoor"
+        },
+        {
+          "item": "zenadesidelight:cashew_sign"
+        },
+        {
+          "item": "zenadesidelight:cashew_hanging_sign"
+        },
+        {
+          "item": "zenadesidelight:cashew_fence"
+        },
+        {
+          "item": "zenadesidelight:cashew_fence_gate"
+        },
+        {
+          "item": "zenadesidelight:cashew_pressure_plate"
+        },
+        {
+          "item": "zenadesidelight:cashew_button"
+        },
+        {
+          "item": "zenadesidelight:cashew_boat"
+        },
+        {
+          "item": "zenadesidelight:cashew_cabinet"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 1,
+        "id": "zenadesidelight:cashew_planks"
+      }
+    }
+  ],
+  "tool": {
+      "tag": "minecraft:axes"
+  },
+  "sound": {
+    "sound_id": "minecraft:item.axe.strip"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "zenadesidelight:cinnamon_door"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_trapdoor"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_sign"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_hanging_sign"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_fence"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_fence_gate"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_pressure_plate"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_button"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_boat"
+        },
+        {
+          "item": "zenadesidelight:cinnamon_cabinet"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 1,
+        "id": "zenadesidelight:cinnamon_planks"
+      }
+    }
+  ],
+  "tool":
+  {
+      "tag": "minecraft:axes"
+  },
+  "sound": {
+    "sound_id": "minecraft:item.axe.strip"
+  }
+}
