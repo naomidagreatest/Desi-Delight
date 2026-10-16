@@ -4,7 +4,6 @@
   "type": "forge:or",
   "values":
   [
-    "#minecraft:is_jungle",
     "#minecraft:is_forest"
   ]
 },

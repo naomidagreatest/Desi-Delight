@@ -4,8 +4,6 @@
   "type": "forge:or",
   "values":
   [
-    "#minecraft:is_jungle",
-    "#minecraft:is_savanna",
     "minecraft:plains",
     "minecraft:forest",
     "minecraft:birch_forest",
