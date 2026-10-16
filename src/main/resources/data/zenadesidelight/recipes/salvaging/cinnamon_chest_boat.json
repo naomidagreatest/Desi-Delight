@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:cinnamon_chest_boat"
+    }
+  ],
+  "result": [
+    {
+      "item": "zenadesidelight:cinnamon_boat",
+      "count": 1
+    },
+    {
+      "item": "minecraft:chest",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "minecraft:hoes"
+  }
+}
