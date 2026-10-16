@@ -4,8 +4,6 @@
   "type": "neoforge:or",
   "values":
   [
-    "#minecraft:is_jungle",
-    "#minecraft:is_savanna",
     "minecraft:swamp",
     "minecraft:mangrove_swamp"
   ]
