@@ -4,7 +4,7 @@ license = "check LICENSE.txt"
 
 [[mods]]
 modId = "zenadesidelight"
-version = "1.20.1-0.1"
+version = "1.20.1-0.2"
 displayName = "Desi Delight"
 authors = "ZENA [Naomi Miller]"
 description = '''
