@@ -4,7 +4,7 @@ license="check LICENSE.txt"
 
 [[mods]] #mandatory
 modId="zenadesidelight" #mandatory
-version="1.21.1-0.1" #mandatory
+version="1.21.1-0.2" #mandatory
 displayName="Desi Delight" #mandatory
 authors= "ZENA [Naomi Miller]"
 description='''
