@@ -10,6 +10,7 @@ import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.entity.custom.ModBoatEntity;
 import net.zenanaomi.desidelight.item.custom.ModBoatItem;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DesiDelight.MOD_ID);
@@ -80,10 +81,14 @@ public class ModItems {
     public static final DeferredItem<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties().food(ModFoods.CASHEW)));
 
     //other ingredients
+    public static final DeferredItem<Item> JAGGERY = ITEMS.register("jaggery", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BUTTER = ITEMS.register("butter", () -> new Item(new Item.Properties().food(ModFoods.BUTTER)));
     public static final DeferredItem<Item> CASHEW_BUTTER = ITEMS.register("cashew_butter", () -> new Item(new Item.Properties().food(ModFoods.CASHEW_BUTTER)));
     public static final DeferredItem<Item> GARAM_MASALA = ITEMS.register("garam_masala", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TANDOORI_MASALA = ITEMS.register("tandoori_masala", () -> new Item(new Item.Properties()));
+
+    //drinks
+    public static final DeferredItem<Item> CANE_JUICE = ITEMS.register("cane_juice", () -> new DrinkableItem(drinkItem()));
 
     //finger food
     public static final DeferredItem<Item> NAAN = ITEMS.register("naan", () -> new Item(new Item.Properties().food(ModFoods.NAAN)));
