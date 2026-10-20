@@ -4,7 +4,7 @@
     "item": "minecraft:flower_pot"
   },
   "cookingtime": 600,
-  "experience": 0.5,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "farmersdelight:milk_bottle"

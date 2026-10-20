@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 0.75,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "minecraft:sugar_cane"
