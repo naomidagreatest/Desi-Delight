@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sugarcane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_sugarcane"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:cooking/cane_juice"
+    ]
+  },
+  "sends_telemetry_event": false
+}

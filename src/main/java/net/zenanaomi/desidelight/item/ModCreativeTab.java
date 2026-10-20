@@ -144,10 +144,14 @@ public class ModCreativeTab {
                         pOutput.accept(ModBlocks.CASHEW_CRATE.get());
 
                         //other ingredients
+                        pOutput.accept(ModItems.JAGGERY.get());
                         pOutput.accept(ModItems.BUTTER.get());
                         pOutput.accept(ModItems.CASHEW_BUTTER.get());
                         pOutput.accept(ModItems.GARAM_MASALA.get());
                         pOutput.accept(ModItems.TANDOORI_MASALA.get());
+
+                        //drinks
+                        pOutput.accept(ModItems.CANE_JUICE.get());
 
                         //small foods
                         pOutput.accept(ModItems.NAAN.get());

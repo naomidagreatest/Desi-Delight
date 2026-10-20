@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_juice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zenadesidelight:cane_juice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+      ["has_juice"]
+  ],
+  "rewards": {
+    "recipes": [
+      "zenadesidelight:smoking/jaggery_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

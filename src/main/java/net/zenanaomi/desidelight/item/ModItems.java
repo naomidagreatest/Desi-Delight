@@ -11,6 +11,7 @@ import net.zenanaomi.desidelight.block.ModBlocks;
 import net.zenanaomi.desidelight.entity.custom.ModBoatEntity;
 import net.zenanaomi.desidelight.item.custom.ModBoatItem;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 import vectorwing.farmersdelight.common.item.FuelBlockItem;
 
 public class ModItems {
@@ -86,10 +87,14 @@ public class ModItems {
     public static final RegistryObject<Item> CASHEW = ITEMS.register("cashew", () -> new Item(new Item.Properties().food(ModFoods.CASHEW)));
 
     //other ingredients
+    public static final RegistryObject<Item> JAGGERY = ITEMS.register("jaggery", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BUTTER = ITEMS.register("butter", () -> new Item(new Item.Properties().food(ModFoods.BUTTER)));
     public static final RegistryObject<Item> CASHEW_BUTTER = ITEMS.register("cashew_butter", () -> new Item(new Item.Properties().food(ModFoods.CASHEW_BUTTER)));
     public static final RegistryObject<Item> GARAM_MASALA = ITEMS.register("garam_masala", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TANDOORI_MASALA = ITEMS.register("tandoori_masala", () -> new Item(new Item.Properties()));
+
+    //drinks
+    public static final RegistryObject<Item> CANE_JUICE = ITEMS.register("cane_juice", () -> new DrinkableItem(drinkItem()));
 
     //finger food
     public static final RegistryObject<Item> NAAN = ITEMS.register("naan", () -> new Item(new Item.Properties().food(ModFoods.NAAN)));
