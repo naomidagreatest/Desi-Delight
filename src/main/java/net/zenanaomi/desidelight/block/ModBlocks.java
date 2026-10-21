@@ -1,12 +1,10 @@
 package net.zenanaomi.desidelight.block;
 
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.neoforged.bus.api.IEventBus;
@@ -20,8 +18,6 @@ import net.zenanaomi.desidelight.block.custom.feasts.ButterChickenBlock;
 import net.zenanaomi.desidelight.item.ModItems;
 import net.zenanaomi.desidelight.util.ModWoodTypes;
 import net.zenanaomi.desidelight.worldgen.tree.ModTreeGrowers;
-import vectorwing.farmersdelight.common.block.CabinetBlock;
-import vectorwing.farmersdelight.common.block.FeastBlock;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
