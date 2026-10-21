@@ -17,7 +17,23 @@
   ],
   "rewards": {
     "recipes": [
-      "zenadesidelight:handi"
+      "zenadesidelight:handi",
+      "zenadesidelight:handi_yellow",
+      "zenadesidelight:handi_orange",
+      "zenadesidelight:handi_red",
+      "zenadesidelight:handi_pink",
+      "zenadesidelight:handi_magenta",
+      "zenadesidelight:handi_purple",
+      "zenadesidelight:handi_blue",
+      "zenadesidelight:handi_light_blue",
+      "zenadesidelight:handi_cyan",
+      "zenadesidelight:handi_lime",
+      "zenadesidelight:handi_green",
+      "zenadesidelight:handi_brown",
+      "zenadesidelight:handi_black",
+      "zenadesidelight:handi_gray",
+      "zenadesidelight:handi_light_gray",
+      "zenadesidelight:handi_white"
     ]
   },
   "sends_telemetry_event": false

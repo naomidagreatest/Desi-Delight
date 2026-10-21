@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "zenadesidelight:handi_light_gray"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:brick",
+      "count": 3
+    },
+    {
+      "item": "minecraft:light_gray_dye",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "minecraft:pickaxes"
+  }
+}

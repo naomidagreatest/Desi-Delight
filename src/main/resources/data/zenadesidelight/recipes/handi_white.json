@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "coloured_handis",
+  "pattern": [
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "O": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "zenadesidelight:handi_white",
+    "count": 1
+  }
+}
