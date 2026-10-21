@@ -4,7 +4,7 @@
   "cookingtime": 100,
   "experience": 0.25,
   "ingredient": {
-    "item": "zenadesidelight:cane_sugar"
+    "item": "zenadesidelight:cane_juice"
   },
   "result": {
     "id": "zenadesidelight:jaggery",
