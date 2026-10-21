@@ -31,6 +31,22 @@ public class ModBlocks {
 
     //handi
     public static final RegistryObject<Block> HANDI = registerBlock("handi", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_YELLOW = registerBlock("handi_yellow", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_ORANGE = registerBlock("handi_orange", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_RED = registerBlock("handi_red", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_PINK = registerBlock("handi_pink", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_MAGENTA = registerBlock("handi_magenta", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_PURPLE = registerBlock("handi_purple", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_BLUE = registerBlock("handi_blue", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_LIGHT_BLUE = registerBlock("handi_light_blue", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_CYAN = registerBlock("handi_cyan", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_LIME = registerBlock("handi_lime", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_GREEN = registerBlock("handi_green", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_BROWN = registerBlock("handi_brown", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_BLACK = registerBlock("handi_black", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_GRAY = registerBlock("handi_gray", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_LIGHT_GRAY = registerBlock("handi_light_gray", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
+    public static final RegistryObject<Block> HANDI_WHITE = registerBlock("handi_white", () -> new Handi(BlockBehaviour.Properties.copy(Blocks.DECORATED_POT)));
 
     //tandoor
     public static final RegistryObject<Block> TANDOOR = registerBlock("tandoor", () -> new Tandoor(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS).lightLevel((state) -> 13)));

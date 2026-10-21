@@ -74,11 +74,27 @@ public class ModCreativeTab {
 
                         pOutput.accept(ModItems.CASHEW_CABINET.get());
 
-                        //decor and other blocks
-                        pOutput.accept(ModBlocks.HANDI.get());
-
                         //function blocks
                         pOutput.accept(ModBlocks.TANDOOR.get());
+
+                        //decor and other blocks
+                        pOutput.accept(ModBlocks.HANDI.get());
+                        pOutput.accept(ModBlocks.HANDI_YELLOW.get());
+                        pOutput.accept(ModBlocks.HANDI_ORANGE.get());
+                        pOutput.accept(ModBlocks.HANDI_RED.get());
+                        pOutput.accept(ModBlocks.HANDI_PINK.get());
+                        pOutput.accept(ModBlocks.HANDI_MAGENTA.get());
+                        pOutput.accept(ModBlocks.HANDI_PURPLE.get());
+                        pOutput.accept(ModBlocks.HANDI_BLUE.get());
+                        pOutput.accept(ModBlocks.HANDI_LIGHT_BLUE.get());
+                        pOutput.accept(ModBlocks.HANDI_CYAN.get());
+                        pOutput.accept(ModBlocks.HANDI_LIME.get());
+                        pOutput.accept(ModBlocks.HANDI_GREEN.get());
+                        pOutput.accept(ModBlocks.HANDI_BROWN.get());
+                        pOutput.accept(ModBlocks.HANDI_BLACK.get());
+                        pOutput.accept(ModBlocks.HANDI_GRAY.get());
+                        pOutput.accept(ModBlocks.HANDI_LIGHT_GRAY.get());
+                        pOutput.accept(ModBlocks.HANDI_WHITE.get());
 
                         //wild crops
                         pOutput.accept(ModItems.WILD_FENNEL.get());
