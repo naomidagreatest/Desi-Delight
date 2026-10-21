@@ -31,6 +31,22 @@ public class ModBlocks {
 
     //handi
     public static final DeferredBlock<Block> HANDI = registerBlock("handi", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_YELLOW = registerBlock("handi_yellow", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_ORANGE = registerBlock("handi_orange", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_RED = registerBlock("handi_red", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_PINK = registerBlock("handi_pink", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_MAGENTA = registerBlock("handi_magenta", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_PURPLE = registerBlock("handi_purple", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_BLUE = registerBlock("handi_blue", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_LIGHT_BLUE = registerBlock("handi_light_blue", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_CYAN = registerBlock("handi_cyan", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_LIME = registerBlock("handi_lime", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_GREEN = registerBlock("handi_green", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_BROWN = registerBlock("handi_brown", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_BLACK = registerBlock("handi_black", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_GRAY = registerBlock("handi_gray", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_LIGHT_GRAY = registerBlock("handi_light_gray", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
+    public static final DeferredBlock<Block> HANDI_WHITE = registerBlock("handi_white", () -> new Handi(BlockBehaviour.Properties.ofFullCopy(Blocks.DECORATED_POT)));
 
     //tandoor
     public static final DeferredBlock<Block> TANDOOR = registerBlock("tandoor", () -> new Tandoor(BlockBehaviour.Properties.ofFullCopy(Blocks.MUD_BRICKS).lightLevel((state) -> 13)));
