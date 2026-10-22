@@ -80,22 +80,22 @@ public class ModCreativeTab {
 
                     //decor and other blocks
                     pOutput.accept(ModBlocks.HANDI);
-                    pOutput.accept(ModBlocks.HANDI_YELLOW);
-                    pOutput.accept(ModBlocks.HANDI_ORANGE);
+                    pOutput.accept(ModBlocks.HANDI_WHITE);
+                    pOutput.accept(ModBlocks.HANDI_LIGHT_GRAY);
+                    pOutput.accept(ModBlocks.HANDI_GRAY);
+                    pOutput.accept(ModBlocks.HANDI_BLACK);
+                    pOutput.accept(ModBlocks.HANDI_BROWN);
                     pOutput.accept(ModBlocks.HANDI_RED);
-                    pOutput.accept(ModBlocks.HANDI_PINK);
-                    pOutput.accept(ModBlocks.HANDI_MAGENTA);
-                    pOutput.accept(ModBlocks.HANDI_PURPLE);
-                    pOutput.accept(ModBlocks.HANDI_BLUE);
-                    pOutput.accept(ModBlocks.HANDI_LIGHT_BLUE);
-                    pOutput.accept(ModBlocks.HANDI_CYAN);
+                    pOutput.accept(ModBlocks.HANDI_ORANGE);
+                    pOutput.accept(ModBlocks.HANDI_YELLOW);
                     pOutput.accept(ModBlocks.HANDI_LIME);
                     pOutput.accept(ModBlocks.HANDI_GREEN);
-                    pOutput.accept(ModBlocks.HANDI_BROWN);
-                    pOutput.accept(ModBlocks.HANDI_BLACK);
-                    pOutput.accept(ModBlocks.HANDI_GRAY);
-                    pOutput.accept(ModBlocks.HANDI_LIGHT_GRAY);
-                    pOutput.accept(ModBlocks.HANDI_WHITE);
+                    pOutput.accept(ModBlocks.HANDI_CYAN);
+                    pOutput.accept(ModBlocks.HANDI_LIGHT_BLUE);
+                    pOutput.accept(ModBlocks.HANDI_BLUE);
+                    pOutput.accept(ModBlocks.HANDI_PURPLE);
+                    pOutput.accept(ModBlocks.HANDI_MAGENTA);
+                    pOutput.accept(ModBlocks.HANDI_PINK);
 
                     //wild crops
                     pOutput.accept(ModItems.WILD_FENNEL);
